@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic>
+  <About>
+    <Title>关于空巢老人的一些问题</Title>
+    <Description>您好，我们正在做一份老人晚年生活的问卷，需要您的参与给我提供宝贵的参考，请花几分钟的时间填完下面的问卷，您的意见对我们很重要。</Description>
+  </About>
+  <Question type="radio" id="1">
+    <Title>你认为多大年纪算是老人了？</Title>
+    <Option id="1001">50-55</Option>
+    <Option id="1002">56-60</Option>
+    <Option id="1003">61-65</Option>
+    <Option id="1004">65及以上</Option>
+  </Question>
+  <Question type="check" id="2">
+    <Title>你家现在有几个老人,分别是</Title>
+    <Option id="2001">爷爷</Option>
+    <Option id="2002">奶奶</Option>
+    <Option id="2003">外公</Option>
+    <Option id="2004">外婆</Option>
+  </Question>
+  <Question type="radio" id="3">
+    <Title>你家里老人现在和谁住？</Title>
+    <Option id="3001">和你父母</Option>
+    <Option id="3002">自己住</Option>
+    <Option id="3003">和亲戚住</Option>
+    <Option id="3004">在养老院</Option>
+    <Option id="3005">其它</Option>
+  </Question>
+  <Question type="radio" id="4">
+    <Title>你多久见一次老人？</Title>
+    <Option id="4001">常常</Option>
+    <Option id="4002">不常见，偶尔回家看看</Option>
+    <Option id="4003">超过三个月没见</Option>
+    <Option id="4004">逢年过节见一次</Option>
+  </Question>
+  <Question type="radio" id="5">
+    <Title>你多久给老人打一次关心电话？</Title>
+    <Option id="5001">常常，一个星期一次</Option>
+    <Option id="5002">偶尔，一月一次</Option>
+    <Option id="5003">记不清，基本不打</Option>
+    <Option id="5004">老人不会用电话</Option>
+  </Question>
+  <Question type="check" id="6">
+    <Title>你家老人平时喜欢干什么？</Title>
+    <Option id="6001">在家门口晒太阳看电视</Option>
+    <Option id="6002">去看老朋友</Option>
+    <Option id="6003">没留意，不知道</Option>
+    <Option id="6004">等儿女回去看TA</Option>
+  </Question>
+  <Question type="radio" id="7">
+    <Title>你知道老人喜欢吃什么？</Title>
+    <Option id="7001">知道</Option>
+    <Option id="7002">好像知道</Option>
+    <Option id="7003">没留意，不知道</Option>
+  </Question>
+  <Question type="radio" id="8">
+    <Title>你每次回去给老人买礼物么？</Title>
+    <Option id="8001">买但是不知道买什么好</Option>
+    <Option id="8002">随便买</Option>
+    <Option id="8003">很少</Option>
+    <Option id="8004">没买过</Option>
+  </Question>
+  <Question type="radio" id="9">
+    <Title>你在家跟老人聊天多么？</Title>
+    <Option id="9001">经常</Option>
+    <Option id="9002">偶尔</Option>
+    <Option id="9003">有代沟了很少聊</Option>
+    <Option id="9004">基本不</Option>
+  </Question>
+  <Question type="radio" id="10">
+    <Title>你给老人洗衣服做饭么？</Title>
+    <Option id="17001">经常</Option>
+    <Option id="17002">偶尔</Option>
+    <Option id="17003">很少</Option>
+    <Option id="17004">基本不</Option>
+  </Question>
+  <Question type="radio" id="11">
+    <Title>冬天老人生病次数多么？</Title>
+    <Option id="10001">老毛病，多</Option>
+    <Option id="10002">偶尔，不多</Option>
+    <Option id="10003">身体很好</Option>
+  </Question>
+  <Question type="radio" id="12">
+    <Title>你觉得家里对老人照顾比较多还是老人照顾孩子比较多？</Title>
+    <Option id="11001">照顾老人多，很少让老人动手</Option>
+    <Option id="11002">老人身体好，自己照顾自己多</Option>
+    <Option id="11003">老人经常帮忙做家务</Option>
+    <Option id="11004">老人带小孩</Option>
+  </Question>
+  <Question type="radio" id="13">
+    <Title>如果你老了，你希望住在儿女身边拥挤还是去养老院舒适？</Title>
+    <Option id="12001">享天伦陪子女</Option>
+    <Option id="12002">看情况</Option>
+    <Option id="12003">不麻烦孩子，去养老院 </Option>
+    <Option id="12004">其它</Option>
+  </Question>
+  <Question type="text" id="14">
+    <Title>如果来得及，你会对家里的老人说什么？</Title>
+  </Question>
+  <Question type="text" id="15">
+    <Title>如果有人帮你照顾老人，你希望TA帮你家老人做什么？</Title>
+  </Question>
+  <Question type="text" id="16">
+    <Title>你觉得照顾老人最大的问题是什么？</Title>
+  </Question>
+</Topic>

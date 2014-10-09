@@ -1,0 +1,25 @@
+﻿生成启动时间为 2013/1/23 星期三 22:16:40。
+     1>项目“H:\WCJ\C++projiects\图片显示\图片显示\图片显示.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\图片显示.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Visual Stadio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\WCJ\C++projiects\图片显示\Debug\图片显示.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\图片显示.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\WCJ\C++projiects\图片显示\Debug\图片显示.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\WCJ\C++projiects\图片显示\Debug\图片显示.lib" /MACHINE:X86 "Debug\图片显示.res"
+         "Debug\图片显示.exe.embed.manifest.res"
+         Debug\stdafx.obj
+         "Debug\图片显示.obj"
+         "Debug\图片显示Dlg.obj"
+     1>图片显示Dlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall C图片显示Dlg::doublecancel(void)" (?doublecancel@C图片显示Dlg@@QAEXXZ)
+     1>图片显示Dlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall C图片显示Dlg::OnBnDoubleclickedCancel(void)" (?OnBnDoubleclickedCancel@C图片显示Dlg@@QAEXXZ)
+     1>H:\WCJ\C++projiects\图片显示\Debug\图片显示.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“H:\WCJ\C++projiects\图片显示\图片显示\图片显示.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.35

@@ -1,0 +1,16 @@
+H:\WCJ\VB\实验\实验\bin\Debug\实验.exe
+H:\WCJ\VB\实验\实验\bin\Debug\实验.pdb
+H:\WCJ\VB\实验\实验\bin\Debug\实验.xml
+H:\WCJ\VB\实验\实验\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\WCJ\VB\实验\实验\obj\x86\Debug\实验.Form1.resources
+H:\WCJ\VB\实验\实验\obj\x86\Debug\实验.Resources.resources
+H:\WCJ\VB\实验\实验\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\WCJ\VB\实验\实验\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\WCJ\VB\实验\实验\obj\x86\Debug\实验.exe
+H:\WCJ\VB\实验\实验\obj\x86\Debug\实验.xml
+H:\WCJ\VB\实验\实验\obj\x86\Debug\实验.pdb
+H:\WCJ\VB\实验\实验\bin\Debug\Interop.APlayer3Lib.dll
+H:\WCJ\VB\实验\实验\bin\Debug\AxInterop.APlayer3Lib.dll
+H:\WCJ\VB\实验\实验\obj\x86\Debug\Interop.APlayer3Lib.dll
+H:\WCJ\VB\实验\实验\obj\x86\Debug\AxInterop.APlayer3Lib.dll
+H:\WCJ\VB\实验\实验\obj\x86\Debug\实验.vbproj.ResolveComReference.cache

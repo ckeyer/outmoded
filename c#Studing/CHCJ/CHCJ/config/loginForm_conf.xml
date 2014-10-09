@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cjstudio name="loginFrom.conf">
+  <Project>
+    <Name>CHCJ</Name>
+    <Version>v1.0</Version>
+    <Author>CJ_Studio</Author>
+    <CreateTime>2014-5-7 下午</CreateTime>
+    <UpdateTime>2014-5-11 下午</UpdateTime>
+  </Project>
+  <Config>
+    <UserList>
+      <User>
+        <UserID>10000</UserID>
+        <Name>test_user</Name>
+        <Password>E10ADC3949BA59ABBE56E057F20F883E</Password>
+        <IsAutoLogin>N</IsAutoLogin>
+        <IsRemPasswd>N</IsRemPasswd>
+        <LastLoginTime>2014/5/8 12:09:37</LastLoginTime>
+      </User>
+      <User>
+        <UserID>10001</UserID>
+        <Name>test_user2</Name>
+        <Password>E10ADC3949BA59ABBE56E057F20F883E</Password>
+        <IsAutoLogin>N</IsAutoLogin>
+        <IsRemPasswd>Y</IsRemPasswd>
+        <LastLoginTime>2014/6/18 13:12:06</LastLoginTime>
+      </User>
+      <User>
+        <UserID>10002</UserID>
+        <Name>test_user3</Name>
+        <Password>E10ADC3949BA59ABBE56E057F20F883E</Password>
+        <IsAutoLogin>N</IsAutoLogin>
+        <IsRemPasswd>Y</IsRemPasswd>
+        <LastLoginTime>2014/5/8 12:39:37</LastLoginTime>
+      </User>
+      <User>
+        <UserID>9999</UserID>
+        <Name />
+        <Password>F59BD65F7EDAFB087A81D4DCA06C4910</Password>
+        <IsAutoLogin>Y</IsAutoLogin>
+        <IsRemPasswd>Y</IsRemPasswd>
+        <LastLoginTime>2014/6/10 22:55:47</LastLoginTime>
+      </User>
+    </UserList>
+  </Config>
+</cjstudio>

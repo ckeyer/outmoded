@@ -1,0 +1,8 @@
+G:\code\C#\MonitorService\MonitorService\bin\Debug\MonitorService.exe
+G:\code\C#\MonitorService\MonitorService\bin\Debug\MonitorService.pdb
+G:\code\C#\MonitorService\MonitorService\obj\x86\Debug\MonitorService.exe
+G:\code\C#\MonitorService\MonitorService\obj\x86\Debug\MonitorService.pdb
+G:\code\C#\MonitorService\MonitorService\obj\x86\Debug\MonitorService.ProjectInstaller.resources
+G:\code\C#\MonitorService\MonitorService\obj\x86\Debug\MonitorService.csproj.GenerateResource.Cache
+D:\monitor\MonitorService.exe
+D:\monitor\MonitorService.pdb

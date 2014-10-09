@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD8ED314-9278-47EF-805C-273846AE25BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CHCJ</RootNamespace>
+    <AssemblyName>CHCJ</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>resource\ico\mine3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cjclass\CJClient.cs" />
+    <Compile Include="cjclass\CJConfig.cs" />
+    <Compile Include="cjclass\CJConnect.cs" />
+    <Compile Include="cjclass\CJLog.cs" />
+    <Compile Include="cjclass\CJMsg.cs" />
+    <Compile Include="cjclass\CJEvent.cs" />
+    <Compile Include="cjclass\CJTcpConnect.cs" />
+    <Compile Include="cjclass\CJUdpConnect.cs" />
+    <Compile Include="cjclass\CJUser.cs" />
+    <Compile Include="cjclass\LocalUser.cs" />
+    <Compile Include="form\ChatForm.cs" />
+    <Compile Include="form\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\UserBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\UserBox.Designer.cs">
+      <DependentUpon>UserBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\UserListBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\UserListBox.Designer.cs">
+      <DependentUpon>UserListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test\TestForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test\TestForm1.Designer.cs">
+      <DependentUpon>TestForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="form\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\UserBox.resx">
+      <DependentUpon>UserBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\UserListBox.resx">
+      <DependentUpon>UserListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test\TestForm1.resx">
+      <DependentUpon>TestForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config\connect_conf.xml" />
+    <Content Include="config\server_conf.xml" />
+    <Content Include="resource\ico\mine.ico" />
+    <Content Include="resource\ico\mine3.ico" />
+    <Content Include="resource\ico\Rotate1.ico" />
+    <Content Include="resource\ico\Rotate2.ico" />
+    <Content Include="resource\ico\Rotate3.ico" />
+    <Content Include="resource\ico\Rotate4.ico" />
+    <Content Include="resource\ico\Rotate5.ico" />
+    <Content Include="resource\ico\Rotate6.ico" />
+    <Content Include="resource\ico\Rotate7.ico" />
+    <Content Include="resource\ico\Rotate8.ico" />
+    <Content Include="resource\img\login_bg.jpg" />
+    <Content Include="config\loginForm_conf.xml" />
+    <Content Include="resource\img\waiting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resource\sound\" />
+    <Folder Include="user\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

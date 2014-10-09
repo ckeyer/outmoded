@@ -1,0 +1,11 @@
+H:\WCJ\VB\汇率\汇率\bin\Debug\汇率.exe
+H:\WCJ\VB\汇率\汇率\bin\Debug\汇率.pdb
+H:\WCJ\VB\汇率\汇率\bin\Debug\汇率.xml
+H:\WCJ\VB\汇率\汇率\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\WCJ\VB\汇率\汇率\obj\x86\Debug\汇率.Form1.resources
+H:\WCJ\VB\汇率\汇率\obj\x86\Debug\汇率.Resources.resources
+H:\WCJ\VB\汇率\汇率\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\WCJ\VB\汇率\汇率\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\WCJ\VB\汇率\汇率\obj\x86\Debug\汇率.exe
+H:\WCJ\VB\汇率\汇率\obj\x86\Debug\汇率.xml
+H:\WCJ\VB\汇率\汇率\obj\x86\Debug\汇率.pdb

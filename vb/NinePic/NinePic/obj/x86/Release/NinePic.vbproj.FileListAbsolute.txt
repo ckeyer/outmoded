@@ -1,0 +1,12 @@
+H:\WCJ\VB\NinePic\NinePic\bin\Release\NinePic.exe
+H:\WCJ\VB\NinePic\NinePic\bin\Release\NinePic.pdb
+H:\WCJ\VB\NinePic\NinePic\bin\Release\NinePic.xml
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\ResolveAssemblyReference.cache
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\NinePic.littlebox.resources
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\NinePic.NinePic.resources
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\NinePic.Resources.resources
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\GenerateResource.read.1.tlog
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\GenerateResource.write.1.tlog
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\NinePic.exe
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\NinePic.xml
+H:\WCJ\VB\NinePic\NinePic\obj\x86\Release\NinePic.pdb

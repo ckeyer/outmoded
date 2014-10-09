@@ -1,0 +1,9 @@
+H:\code\C#\TcpChatServer\TcpChatServer\bin\Debug\TcpChatServer.exe
+H:\code\C#\TcpChatServer\TcpChatServer\bin\Debug\TcpChatServer.pdb
+H:\code\C#\TcpChatServer\TcpChatServer\obj\x86\Debug\TcpChatServer.confForm.resources
+H:\code\C#\TcpChatServer\TcpChatServer\obj\x86\Debug\TcpChatServer.Form1.resources
+H:\code\C#\TcpChatServer\TcpChatServer\obj\x86\Debug\TcpChatServer.Properties.Resources.resources
+H:\code\C#\TcpChatServer\TcpChatServer\obj\x86\Debug\TcpChatServer.csproj.GenerateResource.Cache
+H:\code\C#\TcpChatServer\TcpChatServer\obj\x86\Debug\TcpChatServer.exe
+H:\code\C#\TcpChatServer\TcpChatServer\obj\x86\Debug\TcpChatServer.pdb
+H:\code\C#\TcpChatServer\TcpChatServer\obj\x86\Debug\TcpChatServer.csprojResolveAssemblyReference.cache

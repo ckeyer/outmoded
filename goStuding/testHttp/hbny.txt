@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link type="text/css" rel="stylesheet" href="img/base.css" />
+<script type="text/javascript" src="/img/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="/img/menu.js"></script>
+<script type="text/javascript" src="/img/bigpicroll.js"></script>
+<title>武昌理工学院</title>
+</head>
+
+<body>
+<!-- 头部开始 -->
+<div class="top">
+  <div class="w980">
+    <div class="version"><a href="http://en.wut.edu.cn/" target="_blank"></a></div>
+    <div class="home"><a href="/"></a></div>
+    <div class="search">
+      <form action="/plus/search.php" name="formsearch">
+        <input type="hidden" name="kwtype" value="0">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><input name="keyword" type="text" id="keyword" class="search_box"></td>
+            <td><input name="submit" type="submit" class="search_button" id="submit" value=" " /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- 头部结束 -->
+<div class="clear"></div>
+<!-- 导航开始 -->
+<div class="nav"><div class="w980">
+  <ul id="site_nav">
+    <li class="site_nav_1"><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()"></a>
+    <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="/html/xuexiaogaikuang/2006/0609/14.html" target="_blank">学校简介</a>
+      <a href="/html/xuexiaogaikuang/2009/0504/2283.html" target="_blank">现任领导</a>
+      <a href="/html/xuexiaogaikuang/2012/1203/4983.html" target="_blank">历任领导</a>
+      <a href="/html/xuexiaogaikuang/2006/0609/12.html" target="_blank">机构设置</a>
+    </div></li>
+    <li class="site_nav_2"><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()"></a>
+    <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="http://life.wut.edu.cn" target="_blank">生命科学学院</a>
+      <a href="http://cie.wut.edu.cn/" target="_blank">信息工程学院</a>
+      <a href="http://wbs.wut.edu.cn/" target="_blank">商学院</a>
+      <a href="http://art.wut.edu.cn/" target="_blank">艺术设计学院</a>
+      <a href="http://city.wut.edu.cn/" target="_blank">城市建设学院</a>
+      <a href="http://foreign.wut.edu.cn/" target="_blank">文法与外语学院</a>
+      <a href="http://music.wut.edu.cn/" target="_blank">音乐与传媒学院</a>
+      <a href="http://nurse.wut.edu.cn/" target="_blank">护理学院</a>
+      <a href="http://fzy.wut.edu.cn" target="_blank">非专业素质教育学院</a>
+      <a href="http://sie.wut.edu.cn/" target="_blank">国际教育学院</a>
+      <a href="http://jxjy.wut.edu.cn/" target="_blank">继续教育学院</a>
+      <a href="http://zxks.wut.edu.cn/" target="_blank">自考学院</a>
+    </div></li>
+    <li class="site_nav_3"><a href="/html/xuexiaogaikuang/2013/0531/5581.html" target="_blank" onmouseover="mopen('m22')" onmouseout="mclosetime()"></a>
+    <div id="m22" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="/html/banxuetiaojian/yingjiansheshi/20140504/6605.html" target="_blank">硬件设施</a>
+      <a href="/html/banxuetiaojian/shiziduiwu/20140504/6604.html" target="_blank">师资队伍</a>
+    </div>
+    </li>
+    <li class="site_nav_4"><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()"></a>
+    <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="http://success.wut.edu.cn/" target="_blank">大学成功素质教育</a>
+      <a href="http://reform.wut.edu.cn/" target="_blank">国家教育体制改革试点</a>
+      <a href="/plus/list.php?tid=72">重点学科</a>
+      <a href="/plus/list.php?tid=75">特色专业</a>
+      <a href="/jpkc">精品课程</a>
+      <a href="/plus/list.php?tid=t.edu.cn/" target="_blank">自考学院</a>
+    </div></li>
+    <li class="site_nav_3"><a href="/html/xuexiaogaikuang/2013/0531/5581.html" target="_blank" 73">特色培养</a>
+      <a href="http://zsj.wut.edu.cn/" target="_blank">成功素质展示节</a>
+    </div></li>
+    <li class="site_nav_5"><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()"></a>
+    <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="http://zs.wut.edu.cn/" target="_blank">招生网</a>
+      <a href="http://jyxx.wut.edu.cn/" target="_blank">就业网</a>
+    </div></li>
+    <li class="site_nav_6"><a href="http://jwc.wut.edu.cn/" target="_blank"></a></li>
+    <li class="site_nav_7"><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()"></a>
+    <div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="/html/xuexiaogaikuang/2012/0530/4270.html" target="_blank">学校荣誉</a>
+      <a href="/html/banxuechengjiu/20130609/5638.html" target="_blank">教师成就</a>
+      <a href="/html/banxuechengjiu/20130609/5639.html" target="_blank">学生成就</a>
+      <a href="/html/banxuechengjiu/20130609/5640.html" target="_blank">学校发展</a>
+    </div></li>
+    <li class="site_nav_8"><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()"></a>
+    <div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="http://research.wut.edu.cn/html/keyanjigou/index.html" target="_blank">科研机构</a>
+      <a href="http://research.wut.edu.cn/html/kypt/index.html" target="_blank">科研平台</a>
+      <a href="http://research.wut.edu.cn" target="_blank">科研成果</a>
+      <a href="http://research.wut.edu.cn" target="_blank">科研管理</a>
+    </div></li>
+    <li class="site_navuseout="mclosetime()"></a>
+    <div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="/html/xuexiaogaikuang/2012/0530/4270.html" target="_blank">学校荣誉</a>
+      <a href="/html/banxuechengjiu/20130609/5638.html" target="_blank">教师成就</a>
+      <a href="/html/banxuechengjiu/20130609/5639.html" target="_blank">学生成就</a>
+      <a href="/html/banxuechengjiu/20130609/5640.html" target="_b_9"><a href="#" onmouseover="mopen('m7')" onmouseout="mclosetime()"></a>
+    <div id="m7" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="http://sie.wut.edu.cn" target="_blank">国际合作</a>
+      <a href="/plus/list.php?tid=68">国内合作</a>
+    </div></li>
+    <li class="site_nav_10"><a href="http://www.znonline.net/" target="_blank"></a></li>
+    <li class="site_nav_11"><a href="http://dj.wut.edu.cn/" target="_blank"></a></li>
+    <li class="site_nav_12"><a href="#" onmouseover="mopen('m8')" onmouseout="mclosetime()"></a>
+    <div id="m8" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="http://reform.wut.edu.cn/" target="_blank">国家教育体制改革试点</a>
+      <a href="/html/xuexiaogaikuang/2013/0606/5616.html" target="_blank">湖北教育体制改革试点</a>
+      <a href="http://life.wut.edu.cn/" target="_blank">湖北省高校试点学院</a>
+    </div></li>
+    <li class="site_nav_13"><a href="#" onmouseover="mopen('m9')" onmouseout="mclosetime()"></a>
+    <div id="m9" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="/html/xiaoyuanfengguang/2012/0604/4319.html" target="_blank">校园俯览</a>
+      <a href="/plus/list.php?tid=64" target="_blank">自然景色</a>
+      <a href="/plus/list.php?tid=65" target="_blank">人文景观</a>
+      <a href="/plus/list.php?tid=66" target="_blank">建筑风光</a>
+    </div></li>
+    <li class="sit1"><a href="http://dj.wut.edu.cn/" target="_blank"></a></li>
+    <li class="site_nav_12"><a href="#" onmouseover="mopen('m8')" onmouseout="mclosetime()"></a>
+    <div id="m8" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="http://reform.wut.edu.cn/" target="_blank">国家教育体制改革试点</a>
+      <a href="/html/xuexiaogaikuang/2013/0606/5616.html" target="_blank">湖北教育体制改革试点</a>
+      <a href="http://life.wut.edu.cn/" target="_blank">湖北省高校试点学院</a>
+    </div></li>
+    <li class="site_nav_13"><a href="#" onmouseover="mopen('m9')" onmouseout="mclosetime()"></a>
+   e_nav_14"><a href="http://xgc.wut.edu.cn" target="_blank"></a></li>
+    <li class="site_nav_15"><a href="http://rsc.wut.edu.cn/" target="_blank"></a></li>
+    <li class="site_nav_16"><a href="http://xyzj.wut.edu.cn/" target="_blank"></a></li>
+    <li class="site_nav_17"><a href="#" onmouseover="mopen('m10')" onmouseout="mclosetime()"></a>
+    <div id="m10" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="http://xgc.wut.edu.cn/a/ruxuezhinan/" target="_blank">入学指南</a>
+      <a href="/html/banshizhinan/2013/0624/5718.html" target="_blank">服务指南</a>
+      <a href="/html/banshizhinan/2013/0428/5477.html" target="_blank">校园日历</a>
+      <a href="http://ecard.wut.edu.cn/" target="_blank">一卡通管理中心</a>
+      <a href="http://nc.wut.edu.cn/" target="_blank">网络中心</a>
+      <a href="http://hq.wut.edu.cn/" target="_blank">后勤服务中心</a>
+    </div></li>
+    <li class="site_nav_18"><a href="#" onmouseover="mopen('m11')" onmouseout="mclosetime()"></a>
+    <div id="m11" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+      <a href="mailto:wuchanglgxzxx@163.com" target="_blank">校长信箱</a>
+      <a href="/html/banshizhinan/2013/0428/5478.html" target="_blank">联系方式</a>
+      <a href="http://mail.wut.edu.cn/" target="_blank">学校邮箱</a>
+      <a href="http://www.znonline.net/member/login.php" target="_blank">新闻投稿</a>
+      <a href="mailto:lx0603@126.com" target="_blank">学报投稿</a>
+      <a href="/html/xuexiaogaikuang/2006/0609/11.html" target="_blank">交通导航</a>
+    </div></li>
+  </ul>
+</div></div>
+<!-- 导航结束 -->
+<div class="clear"></div>
+<!-- banner开始 -->
+<div class="banner">
+  <div id="slideshow" class="box_skitter fn-clear">
+    <ul>
+      <li><img class="cubeRandom" src="/img/banner_1.gif" /></li>
+      <li><a href="http://dj.wut.edu.cn/" target="_blank"><img class="cubeRandom" src="/img/banner_2.jpg" /></a></li>
+      <li><a href="http://reform.wut.edu.cn/" target="_blank"><img class="cubeRandom" src="/img/banner_3.jpg" /></a></li>
+    </ul>
+   </div>
+<script type="text/javascript" src="/img/slideshow.js"></script>
+</div>
+<!-- banner结束 -->
+<div class="clear"></div>
+<!-- 图片新闻、校园新闻、信息公告开始 -->
+<div class="content_1"><div class="w980">
+  <!-- 图片新闻开始 -->
+  <div class="hdwrap">
+    <div class="hdflash f_list">
+      <div class="flash_tab">
+        <div class="column_title1"></div>
+        <div class="tabs f_tabs">
+          <ul>
+          <li class="f_tab opdiv"><a href="javascript:void(0);"></a></li>
+<li class="f_tab opdiv"><a href="javascript:void(0);"></a></li>
+<li class="f_tab opdiv"><a href="javascript:void(0);"></a></li>
+<li class="f_tab opdiv"><a href="javascript:void(0);"></a></li>
+<li class="f_tab opdiv"><a href="javascript:void(0);"></a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="flashlist">
+        <div class="f_out"><a href='/html/picnews/2014/0617/6752.html'><img src='/upimg/140617/_101S5533.jpg' border='0' width='120' height='120' alt='武昌理工学院欢送2014届毕业生晚会（组图）'></a>
+          <div class="picintro"><a href='/html/picnews/2014/0617/6752.html'>武昌理工学院欢送2014届毕业生晚会（组</a></div>
+        </div>
+<div class="f_out"><a href='/html/picnews/2014/0514/6638.html'><img src='/upimg/140514/_101404314.jpg' border='0' width='120' height='120' alt='武昌理工学院校园夜景（组图）'></a>
+          <div class="picintro"><a href='/html/picnews/2014/0514/6638.html'>武昌理工学院校园夜景（组图）</a></div>
+        </div>
+<div class="f_out"><a href='/html/picnews/2014/0401/6521.html'><img src='/upimg/140401/_15023MR.jpg' border='0' width='120' height='120' alt='武昌理工学院第五届成功素质展示节开幕式（组图）'></a>
+          <div class="picintro"><a href='/html/picnews/2014/0401/6521.html'>武昌理工学院第五届成功素质展示节开幕</a></div>
+        </div>
+<div class="f_out"><a href='/html/picnews/2014/0401/6520.html'><img src='/upimg/140401/_145IQ16.jpg' border='0' width='120' height='120' alt='春暖花开 武昌理工校园花色美景（组图）'></a>
+          <div class="picintro"><a href='/html/picnews/2014/0401/6520.html'>春暖花开 武昌理工校园花色美景（组图</a></div>
+        </div>
+<div class="f_out"><a href='/html/picnews/2014/0329/6509.ass="f_out"><a href='/html/picnews/2014/0514/6638.html'><img src='/upimg/140514/_101404314.jpg' border='0' width='120' height='120' alt='武昌理工学院校园夜景（组图）'></a>
+          <div class="picintro"><a href='/html/picnews/2014/0514/6638.html'>武昌理工学院校园夜景（组图）</a></div>
+        </div>
+<div class="f_out"><a href='/html/picnews/2014/0401/6521.html'><img src='/upimg/140401/_15023MR.jpg' border='0' width='120' height='120' alt='武昌理工学院第五届成功素质展示节开幕式（组图）'></a>
+          <div class="picintro"><a href='/html/picnews/2014/0401/6521.html'>武昌理工学院第五届成功素质展示节开幕</a></div>
+        </div>
+<div class="f_out"><a href='/html/picnews/2014/0401/6520.html'><img src='/upimg/140401/_145IQ16.jpg' border='0' width='120' height='120' alt='春暖花开 武昌理工校园花色美景（组图）'></a>
+        html'><img src='/upimg/140329/_1T431I4.jpg' border='0' width='120' height='120' alt='武昌理工学院《女生安全手册》赠书活动（组图）'></a>
+          <div class="picintro"><a href='/html/picnews/2014/0329/6509.html'>武昌理工学院《女生安全手册》赠书活动</a></div>
+        </div>
+
+      </div>
+	  <script type="text/javascript">
+	    FeatureList(".f_list", {
+			"onclass": "noopdiv",
+			"offclass": "opdiv",
+			"pause_on_act": "mouseover",
+			"interval": 5000,
+			"speed": 5
+		});
+      </script>
+    </div>
+  </div>
+  <!-- 图片新闻结束 -->
+  <!-- 校园新闻开始 -->
+  <div class="column_1">
+    <div class="column_m1"><a href="/plus/list.php?tid=1"></a></div>
+    <ul class="column_list_1">
+      <li><a href="/html/news/2014/0622/6772.html" target="_blank"><b><font color='#0000FF'>湖北省大学生创新创业俱乐部沙龙活动走进</font></b></a><span class="date">2014-06-22</span></li>
+<li><a href="/html/news/2014/0621/6770.html" target="_blank"><b>【毕业专题】武昌理工学院毕业生寄语</b></a><span class="date">2014-06-21</span></li>
+<li><a href="/html/news/2014/0620/6768.html" target="_blank">大学校长毕业典礼致辞 教导学生要“追求</a><span class="date">2014-06-20</span></li>
+<li><a href="/html/news/2014/0620/6766.html" target="_blank">武昌理工学院：拾金不昧二三事</a><span class="date">2014-06-20</span></li>
+<li><a href="/html/news/2014/0619/6759.html" target="_blank"><b><font color='#FF0000'>武昌理工学院隆重举行2014届毕业生学位授</font></b></a><span class="date">2014-06-19</span></li>
+<li><a href="/html/news/2014/0619/6758.html" target="_blank">武昌理工学院参加湖北省大学生武术比赛荣</a><span class="date">2014-06-19</span></li>
+<li><a href="/html/news/2014/0618/6757.html" target="_blank"><b><font color='#006600'>16名大学生徒步100余公里磨练意志</font></b></a><span class="date">2014-06-18</span></li>
+<li><a href="/html/news/2014/0618/6756.html" target="_blank">感恩母校 武昌理工学院毕业生捐赠“居里</a><span class="date">2014-06-18</span></li>
+
+    </ul>
+  </div>
+  <!-- 校园新闻结束 -->
+  <!-- 信息公告开始 -->
+  <div class="column_2">
+    <div class="column_title2"></div>
+    <div class="column_m2"><a href="/plus/list.php?tid=29"></a></div>
+    <ul class="column_list_2">
+      <li><a href="/html/gonggao/2014/0619/6764.html" target="_blank">关于组织申报2015年度湖北省教育厅哲学社</a></li>
+<li><a href="/html/gonggao/2014/0612/6733.html" target="_blank">关于组织申报2014年度社会科学研究教育改</a></li>
+<li><a href="/html/gonggao/2014/0612/6732.html" target="_blank">申报2014年湖北省高校省级教学改革研究项</a></li>
+<li><a href="/html/gonggao/2014/0611/6731.html" target="_blank">  关于组织收看大型政论片《百年潮&#8226</a></li>
+<li><a href="/html/gonggao/2014/0611/6730.html" target="_blank">2014届优秀毕业生评选公示</a></li>
+<li><a href="/html/gonggao/2014/0611/6726.html" target="_blank">关于组织申报2015年度湖北省教育厅科研计</a></li>
+<li><a href="/html/gonggao/2014/0605/6711.html" target="_blank">关于组织申报2015年度省教育厅人文社会科</a></li>
+<li><a href="/html/gonggao/2014/0529/6692.html" target="_blank">关于组织申报2015年度武汉市软科学研究计</a></li>
+
+    </ul>
+  </div>
+  <!-- 信息公告结束 -->
+</div></div>
+<!-- 图片新闻、校园新闻、信息公告结束 -->
+<div class="clear"></div>
+<!-- 媒体关注、影像校园、高教资讯开始 -->
+<div class="content_2"><div class="w980">
+  <!-- 媒体关注开始 -->
+  <div class="column_3">
+    <div class="column_title3"><a href="/plus/list.php?tid=59"><img src="/img/column_1.gif" /></a></div>
+    <ul class="column_list_3">
+      <li><a href="/html/mtgz/20140619/6762.html" target="_blank">武汉晚报：16名大学生徒步百余公里到黄石</a></li>
+<li><a href="/html/mtgz/20140619/6761.html" target="_blank">光明网：高校食堂保洁阿姨捡价值万余元背</a></li>
+<li><a href="/html/mtgz/20140619/6760.html" target="_blank">长江商报：武汉一高校开展学生观念与品格</a></li>
+<li><a href="/html/mtgz/20140617/6755.html" target="_blank">武汉晚报：“另类学分”鼓励学生做好人</a></li>
+
+    </ul>
+    <div class="column_m3"><a href="/plus/list.php?tid=59"></a></div>
+  </div>
+  <!-- 媒体关注结束 -->
+  <!-- 影像校园开始 -->
+  <div class="column_3">
+    <div class="column_title3"><a href="/plus/list.php?tid=30"><img src="/img/column_2.gif" /></a></div>
+    <ul class="column_list_3">
+      <li><a href="/hＴ啊⒏呓套恃犊� -->
+<div class="content_2"><div class="w980">
+  <!-- 媒体关注开始 -->
+  <div class="column_3">
+    <div class="column_title3"><a href="/plus/list.php?tid=59"><img src="/img/column_1.gif" /></a></div>
+    <ul class="column_list_3">
+      <li><a href="/html/mtgz/20140619/6762.html" target="_blank">武汉晚报：16名大学生徒步百余公里到黄石</a></li>
+<li><a href="/html/mtgz/20140619/6761.html" target="_blank">光明网：高校食堂保洁阿姨捡价值万余元背</a></li>
+<li><a href="/html/mtgz/20140619/6760.html" target="_blank">长江商报：武汉一高校开展学生观念与品格</a></li>
+<li><a href="/html/mtgz/20140617/6755.html" target="_blank">武汉晚报：“另类学分”鼓励学生做好人</a></li>
+
+    </ul>
+    <div class="column_m3"><a href="/plus/list.php?tid=59"></a></div>
+  </div>
+  <!-- 媒体关注结束 -->
+  <!-- 影像校园开始 --tml/picnews/2014/0617/6752.html" target="_blank">武昌理工学院欢送2014届毕业生晚会（组图</a></li>
+<li><a href="/html/picnews/2014/0514/6638.html" target="_blank">武昌理工学院校园夜景（组图）</a></li>
+<li><a href="/html/picnews/2014/0401/6521.html" target="_blank">武昌理工学院第五届成功素质展示节开幕式</a></li>
+<li><a href="/html/picnews/2014/0401/6520.html" target="_blank">春暖花开 武昌理工校园花色美景（组图）</a></li>
+
+    </ul>
+    <d    <li><a href="/html/mtgz/20140619/6762.html" target="_blank">武汉晚报：16名大学生徒步百余公里到黄石</a></li>
+<li><a href="/html/mtgz/20140619/6761.html" target="_blank">光明网：高校食堂保洁阿姨捡价值万余元背</a></li>
+<li><a href="/html/mtgz/20140619/6760.html" target="_blank">长江商报：武汉一高校开展学生观念与品格</a></li>
+<li><a href="/html/mtgz/20140617/6755.html" target="_blank">武汉晚报：“另类学分”鼓励学生做好人</a></li>
+
+    </ul>
+    <div class="column_m3"><a href="/plus/list.php?tid=59"></a></div>
+  </div>
+  <!-- 媒体关注结束 -->
+  <!-- 影像校园开始 --iv class="column_m3"><a href="/plus/list.php?tid=30"></a></div>
+  </div>
+  <!-- 影像校园结束 -->
+  <!-- 高教资讯开始 -->
+  <div class="column_4">
+    <div class="column_title3"><a href="/plus/list.php?tid=56"><img src="/img/column_3.gif" /></a></div>
+    <ul class="column_list_3">
+      <li><a href="/html/gjzx/20140621/6771.html" target="_blank">最新亚洲大学排行榜出炉 中国大陆18所上</a></li>
+<li><a href="/html/gjzx/20140620/6769.html" target="_blank">河南127人高考替考 替考大学生将开除</a></li>
+<li><a href="/html/gjzx/20140619/6763.html" target="_blank">高考生如何选专业：兴趣“钱景”都要兼顾</a></li>
+<li><a href="/html/gjzx/20140616/6747.html" target="_blank">浙江高校推“学业预警”模式 退学人数下</a></li>
+
+    </ul>
+    <div class="column_m3"><a href="/plus/list.php?tid=56"></a></div>
+  </div>
+  <!-- 高教资讯结束 -->
+</div></div>
+<!-- 媒体关注、影像校园、高教资讯结束 -->
+<div class="clear"></div>
+<!-- 友情链接、宣传片开始 -->
+<div class="content_3"><div class="w980">
+  <!-- 友情链接开始 -->
+  <div class="column_5">
+    <div class="column_title4"></div>
+    <ul id="friendlink">
+      <li>--请选择：校内资源链接--<a class="arrow" onmouseover="mopen('m12')" onmouseout="mclosetime()"></a>
+      <div id="m12" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="linklist1">        
+        <a href="http://www.znonline.net" target="_blank">中南在线</a>
+        <a href="http://znlib.wut.edu.cn/" target="_blank">图书馆</a>
+        <a href="http://mail.wut.edu.cn/" target="_blank">校内邮件</a>
+        <a href="http://172.16.2.221/" target="_blank">信息发布系统</a>
+        <a href="http://www.wut.edu.cn/html/ziliaoxiazhai/" target="_blank">资源下载</a>
+        <a href="http://172.16.5.6/jiaowu_znfx/" target="_blank">教务管理系统</a>
+        <a href="http://172.16.47.212/" target="_blank">工资查询</a>
+        <a href="http://wclgxyb.cuepa.cn/index.php" target="_blank">校报电子版</a>
+        <a href="http://radio.wut.edu.cn/" target="_blank">武昌理工广播台</a>
+        <a href="http://e.weibo.com/u/1978435520" target="_blank">武昌理工学院官方微博</a>
+        <a href="http://www.mnsx.net/" target="_blank">梅南山下BBS</a>
+        <a href="http://login.sina.com.cn/signup/signin.php?entry=quanzi&r=http%3A%2F%2Fq.blog.sina.com.cn%2Fwustzb" target="_blank">梅南博客圈</a>
+        <a href="http://q.weibo.com/147733" target="_blank">梅南微群</a>
+        <a href="mailto:qzlx@wut.edu.cn" target="_blank">党的群众路线教育实践活动征求意见邮箱</a>
+      </div></li>
+      <li>--请选择：各部门链接--<a class="arrow" onmouseover="mopen('m13')" onmouseout="mclosetime()"></a>
+      <div id="m13" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="linklist2">
+        <a href="http://jwc.wut.edu.cn/" target="_blank">教务处</a>
+        <a href="http://zs.wut.edu.cn/" target="_blank">招生办</a>
+        <a href="http://dj.wut.edu.cn/" target="_blank">组织部</a>
+        <a href="http://rsc.wut.edu.cn/" target="_blank">人事处</a>
+        <a href="http://xgc.wut.edu.cn" target="_blank">学工处</a>
+        <a href="http://tw.wut.edu.cn/" target="_blank">校团委</a>
+        <a href="http://research.wut.edu.cn/" target="_blank">发规处</a>
+        <a href="http://success.wut.edu.cn/" target="_blank">高教所</a>
+        <a href="http://dds.wut.edu.cn/" target="_blank">督导室</a>
+        <a href="http://gh.wut.edu.cn/" target="_blank">校工会</a>
+        <a href="http://sjc.wut.edu.cn/" target="_blank">审监处</a>
+        <a href="http://jyxx.wut.edu.cn/" target="_blank">就业信息网</a>
+        <a href="http://xyzj.wut.edu.cn/" target="_blank">校友之家<="mclosetime()"></a>
+      <div id="m13" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="linklist2">
+        <a href="http://jwc.wut.edu.cn/" target="_blank">教务处</a>
+        <a href="http://zs.wut.edu.cn/" target="_blank">招生办</a>
+        <a href="http://dj.wut.edu.cn/" target="_blank">组织部</a>
+        <a href="http://rsc.wut.edu.cn/" target="_blank">人事处</a>
+        <a href="http://xgc.wut.edu.cn" target="_blank">学/a>
+      </div></li>
+      <li>--请选择：各院系网站--<a class="arrow" onmouseover="mopen('m14')" onmouseout="mclosetime()"></a>
+      <div id="m14" onmouseover="mcancelclosetime()" onmedu.cn/" target="_blank">高教所</a>
+        <a href="http://dds.wut.edu.cn/" target="_blank">督导室</a>
+        <a href="http://gh.wut.edu.cn/" target="_blank">校工会</a>
+        <a href="http://sjc.wut.edu.cn/" target="_blank">审监处</a>
+        <a href="http://jyxx.wut.edu.cn/" target="_blank">就业信息网</a>
+        <a href="http://xyzj.wut.edu.cn/" target="_blank">校友之家<="mclosetime()"></a>
+      <div id="m13" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="linklist2">
+        <a href="http://jwc.wut.edu.cn/" target="_blank">教务处</a>
+        <a href="http://zs.wut.edu.cn/" target="_blank">招生办</a>
+        <a href="http://dj.wut.edu.cn/" target="_blank">组织部</a>
+        <a href="http://rsc.wut.edu.cn/" target="_blank">人事处</a>
+        <a href="http://xgc.wut.edu.cn" target="_blank">学ouseout="mclosetime()" class="linklist3">
+        <a href="http://life.wut.edu.cn/" target="_blank">生命科学学院</a>
+        <a href="http://cie.wut.edu.cn/" target="_blank">信息工程学院</a>
+        <a href="http://wbs.wut.edu.cn/" target="_blank">商学院</a>
+        <a href="http://art.wut.edu.cn/" target="_blank">艺术设计学院</a>
+        <a href="http://city.wut.edu.cn/" target="_blank">城市建设学院</a>
+        <a href="http://foreign.wut.edu.cn/" target="_blank">文法与外语学院</a>
+        <a href="http://music.wut.edu.cn/" target="_blank">音乐与传媒学院</a>
+        <a href="http://fzy.wut.edu.cn" target="_blank">非专业素质教育学院</a>
+        <a href="http://sie.wut.edu.cn/" target="_blank">国际教育学院</a>
+        <a href="http://jxjy.wut.edu.cn/" target="_blank">继续教育学院</a>
+        <a href="http://zxks.wut.edu.cn/" target="_blank">自考学院</a>
+        <a href="http://nurse.wut.edu.cn/" target="_blank">护理学院</a>
+      </div></li>
+      <li>--请选择：广信科教集团链接--<a class="arrow" onmouseover="mopen('m15')" onmouseout="mclosetime()"></a>
+      <div id="m15" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="linklist4">
+        <a href="http://www.hbgxjt.com/" target="_blank">广信科教集团</a>
+        <a href="http://www.lulinshan.cn/" target="_blank">绿林山风景区</a>
+        <a href="http://www.whualong.com/" target="_blank">华龙生物制药公司</a>
+        <a href="http://hq.wut.edu.cn/" target="_blank">后勤服务公司</a>
+        <a href="http://www.gxlssp.com" target="_blank">广信绿色食品公司</a>
+        <a href="http://www.hchtac.com/" target="_blank">华创素质拓展公司</a>
+        <a href="http://sn.gxkjjt.com/" target="_blank">武汉软网科技公司</a>
+        <a href="http://www.gxgjhotel.com/" target="_blank">广信国际大酒店</a>
+        <a href="http://gy.gxkjjt.com/" target="_blank">广宇建筑公司</a>
+      </div></li>
+      <li>--请选择：校外友情链接--<a class="arrow" onmouseover="mopen('m16')" onmouseout="mclosetime()"></a>
+      <div id="m16" onmouseover="mcancelclosetime()" onmouseout="mclosetime()" class="linklist5">
+        <a href="http://www.moe.edu.cn/" target="_blank">教育部</a>
+		<a href="http://www.most.gov.cn/" target="_blank">科技部</a>
+        <a href="http://www.hbe.gov.cn/" target="_blank">省教育厅</a>
+        <a href="http://zsxx.e21.cn/e21html/" target="_blank">湖北招生信息网</a>
+        <a href="http://www.e21.cn/" target="_blank">湖北教育信息网</a>
+		<a href="http://www.hbstd.gov.cn/" target="_blank">湖北省科学技术厅</a>
+        <a href="http://www.hb.hrss.gov.cn/hbwzweb/html/home/index.shtml" target="_blank">湖北省人社厅</a>
+        <a href="http://www.hb.lm.gov.cn/" target="_blank">湖北省就业信息网</a>
+        <a href="http://www.whrsj.gov.cn/publish/rbj/P1201012291042330001.shtml" target="_blank">武汉市人社局</a>
+        <a href="http://www.univs.cn/" target="_blank">中国大学生在线</a>
+        <a href="http://www.whu.edu.cn/index.html" target="_blank">武汉大学</a>
+        <a href="http://www.hust.edu.cn/" target="_blank">华中科技大学</a>
+        <a href="http://www.usu.edu/" target="_blank">美国犹他州立大学</a>
+        <a href="http://www.tiffin.edu/" target="_blank">美国蒂芬大学</a>
+        <a href="http://www.beppu-u.ac.jp/" target="_blank">日本别府大学</a>
+      </div></li>
+    </ul>
+  </div>
+  <!-- 友情链接结束 -->
+  <!-- 宣传片开始 -->
+  <div class="column_6">
+    <div id="menu1" class="TasADSOn" onmouseover="setTimeout('ShowMenu_news(1)',0);"><a target="_blank" href="/html/picnews/2013/0609/5641.html"><img src="/img/school_video_1.gif" /></a></div>
+    <div id="menu3" class="TasADSOff" onmouseover="setTimeout('ShowMenu_news(3)',0);"><a target="_blank" href="/html/picnews/2013/0609/5642.html"><img src="/img/school_video_3.gif" /></a></div>
+    <div id="menu4" class="TasADSOff" onmouseover="setTimeout('ShowMenu_news(4)',0);"><a target="_blank" href="/html/picnews/2013/0609/5643.html"><img src="/img/school_video_4.gif" /></a></div>
+    <div id="menu2" class="TasADSOff" onmouseover="setTimeout('ShowMenu_news(2)',0);"><a target="_blank" href="/html/picnews/2012/0702/4455.html"><img src="/img/school_video_2.gif" /></a></div>
+<SCRIPT language="javascript"> 
+function ShowMenu_news(num){
+ for(var i=1;i<5;i++){d-u.ac.jp/" target="_blank">日本别府大学</a>
+      </div></li>
+    </ul>
+  </div>
+  <!-- 友情链接结束 -->
+  <!-- 宣传片开始 -->
+  <div class="column_6">
+    <div id="menu1" class="TasADSOn" onmouseover="setTimeout('ShowMenu_news(1)',0);"><a target="_blank" href="/html/picnews/2013/0609/5641.html"><img src="/img/school_video_1.gif" /></a></div>
+    <div id="menu3" class="TasADSOff" onmouseover="setTimeout('ShowMenu_news(3)',0);"><a target="_blank" href="/html/picnews/2013/0609/5642.html"><img src="/img/school_video_3.gif" /></a></div>
+    <div id="menu4" class="TasADSOff" onmouseover="setTimeout('ShowMenu_news(4)',0);"><a target="_blank" href="/html/picnews/2013/0609/5643.html"><img src="/img/school_video_4.gif" /></a></div>
+    <div id="menu2" class="TasADSOff" onmouseover="setTimeout('ShowMenu_news(2)',0);"><a targocument.getElementById("menu"+i).className="TasADSOff";}
+ document.getElementById("menu"+num).className="TasADSOn";
+}
+</SCRIPT>
+  </div>
+  <!-- 宣传片结束 -->
+</div></div>
+<!-- 友情链接、宣传片结束 -->
+<div class="clear"></div>
+<!-- 版权信息开始 -->
+<div class="footer"><div class="w980">
+  <div class="copyright">CopyRight &copy; 武昌理工学院  地址：湖北省武汉江夏大道16号  邮编：430223 鄂ICP备11008201号<br />电话：81652000 招生咨询电话：81652037、81652828、81652829 传真：81652011 技术支持：<a href="http://nc.wut.edu.cn">武昌理工学院网络中心</a> <script src='http://s131.cnzz.com/stat.php?id=732832&web_id=732832' language='JavaScript' charset='gb2312'></script></div>
+  <div class="weibo"><a href="http://e.weibo.com/u/1978435520" target="_blank"></a></div>
+</div></div>
+<!-- 版权信息结束 -->
+
+<!-- youcepiaofu -->
+<div id="ShowAD" style="position:absolute;z-index:100;">
+<div style="width:135;height:18px;font-size:14px;font-weight:bold;text-align:left;cursor:hand;" onClick="closead();"><font color="ff0000"></font></div>
+<a href="http://jwc.wut.edu.cn/plus/list.php?tid=205"><img src="/templets/img/zsb.png"></a>
+</div>
+<script language="javascript">
+var bodyfrm = ( document.compatMode.toLowerCase()=="css1compat" ) ? document.documentElement : document.body;
+var adst = document.getElementById("ShowAD").style;
+adst.top = ( bodyfrm.clientHeight -530-22 ) + "px";
+adst.left = ( bodyfrm.clientWidth -155 ) 备11008201号<br />电话：81652000 招生咨询电话：81652037、81652828、81652829 传真：81652011 技术支持：<a href="http://nc.wut.edu.cn">武昌理工学院网络中心</a> <script src='http://s131.cnzz.com/stat.php?id=732832&web_id=732832' language='JavaScript' charset='gb2312'></script></div>
+  <div class="weibo"><a href="http://e.weibo.com/u/1978435520" target="_blank"></a></div>
+</div></div>
+<!-- 版权信息结束 -->
+
+<!-- youcepiaofu -->
+<div id="ShowAD" style="position:absolute;z-index:100;">
+<div style="width:135;height:18px;font-size:14px;font-weight:bold;text-align:left;cursor:hand;" onClick="closead();"><font color="ff0+ "px";
+function moveR() {
+adst.top = ( bodyfrm.scrollTop + bodyfrm.clientHeight - 530-22) + "px";
+adst.left = ( bodyfrm.scrollLeft + bodyfrm.clientWidth - 155 ) + "px";
+}
+setInterval("moveR();", 80);
+function closead()
+{
+adst.display='none';
+}
+</script>
+
+</body>
+</html>
+ent.getElementById("ShowAD").style;
+adst.top = ( bodyfrm.clientHeight -530-22 ) + "px";
+adst.left = ( bodyfrm.clientWidth -155 ) 备11008201号<br />电话：81652000 招生咨询电话：81652037、81652828、81652829 传真：81652011 技术支持：<a href="http://nc.wut.edu.cn">武昌理工学院网络中心</a> <script src='http://s131.cnzz.com/stat.php?id=732832&web_id=732832' language='JavaScript' charset='gb2312'></script></div>
+  <div class="weibo"><a href="http://e.weibo.com/u/1978435520" target="_blank"></a></div>
+</div></div>
+<!-- 版权信息结束 -->
+
+<!-- youcepiaofu -->
+<div id="ShowAD" style="position:absolute;z-index:100;">
+<div style="width:135;height:18px;font-size:14px;font-weight:bold;text-align:left;cursor:hand;" onClick="closead();"><font color="ff0

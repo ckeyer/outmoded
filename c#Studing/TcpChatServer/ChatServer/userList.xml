@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cjstudio>
+  <User>
+    <UserID>10001</UserID>
+    <Name>cjstudio</Name>
+    <Password>92BF7F66349AC7C8EDE0AEDC81F41A663C720A4510DD032991F985983DD976E5</Password>
+  </User>
+  <User>
+    <UserID>10002</UserID>
+    <Name>testUser1</Name>
+    <Password>92BF7F66349AC7C8EDE0AEDC81F41A663C720A4510DD032991F985983DD976E5</Password>
+  </User>
+  <User>
+    <UserID>10003</UserID>
+    <Name>testUser2</Name>
+    <Password>92BF7F66349AC7C8EDE0AEDC81F41A663C720A4510DD032991F985983DD976E5</Password>
+  </User>
+  <User>
+    <UserID>10004</UserID>
+    <Name>testUser3</Name>
+    <Password>92BF7F66349AC7C8EDE0AEDC81F41A663C720A4510DD032991F985983DD976E5</Password>
+  </User>
+</cjstudio>

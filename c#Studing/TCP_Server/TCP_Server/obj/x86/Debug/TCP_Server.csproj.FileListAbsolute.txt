@@ -1,0 +1,16 @@
+H:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.Form1.resources
+H:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.Properties.Resources.resources
+H:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.csproj.GenerateResource.Cache
+H:\code\C#\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe
+H:\code\C#\TCP_Server\TCP_Server\bin\Debug\TCP_Server.pdb
+H:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.exe
+H:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.pdb
+H:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.csprojResolveAssemblyReference.cache
+G:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.exe
+G:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.pdb
+G:\code\C#\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe
+G:\code\C#\TCP_Server\TCP_Server\bin\Debug\TCP_Server.pdb
+G:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.csprojResolveAssemblyReference.cache
+G:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.Form1.resources
+G:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.Properties.Resources.resources
+G:\code\C#\TCP_Server\TCP_Server\obj\x86\Debug\TCP_Server.csproj.GenerateResource.Cache

@@ -1,0 +1,10 @@
+G:\code\C#\MonitorService\Test\bin\Release\Test.exe
+G:\code\C#\MonitorService\Test\bin\Release\Test.pdb
+G:\code\C#\MonitorService\Test\bin\Release\Newtonsoft.Json.dll
+G:\code\C#\MonitorService\Test\bin\Release\Newtonsoft.Json.pdb
+G:\code\C#\MonitorService\Test\bin\Release\Newtonsoft.Json.xml
+G:\code\C#\MonitorService\Test\obj\x86\Release\Test.Form1.resources
+G:\code\C#\MonitorService\Test\obj\x86\Release\Test.Properties.Resources.resources
+G:\code\C#\MonitorService\Test\obj\x86\Release\Test.csproj.GenerateResource.Cache
+G:\code\C#\MonitorService\Test\obj\x86\Release\Test.exe
+G:\code\C#\MonitorService\Test\obj\x86\Release\Test.pdb

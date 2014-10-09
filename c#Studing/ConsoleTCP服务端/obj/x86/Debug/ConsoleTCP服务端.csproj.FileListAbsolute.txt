@@ -1,0 +1,5 @@
+E:\ClassBegins\C#网络编程\Chapter3\3-2\ConsoleTCP服务端\bin\Debug\ConsoleTCP服务端.exe
+E:\ClassBegins\C#网络编程\Chapter3\3-2\ConsoleTCP服务端\bin\Debug\ConsoleTCP服务端.pdb
+E:\ClassBegins\C#网络编程\Chapter3\3-2\ConsoleTCP服务端\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\ClassBegins\C#网络编程\Chapter3\3-2\ConsoleTCP服务端\obj\x86\Debug\ConsoleTCP服务端.exe
+E:\ClassBegins\C#网络编程\Chapter3\3-2\ConsoleTCP服务端\obj\x86\Debug\ConsoleTCP服务端.pdb

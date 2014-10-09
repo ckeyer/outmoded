@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cjstudio type="serverConf"><!--serverConf,connect,clientChat,serverChat,clientChange-->
+  <From>
+    <IPAddress>127.0.0.1</IPAddress>
+    <Port>1234</Port>
+    <Name>clienta</Name>
+  </From>
+  <To>
+    <IPAddress>127.0.0.1</IPAddress>
+    <Port>2345</Port>
+    <Name>clienta</Name>
+  </To>
+  <Data>
+    <Font></Font>
+    <Text></Text>
+    <Text></Text>
+    <Text></Text>
+    <Photo></Photo>
+  </Data>
+</cjstudio>
+
+<?xml version="1.0" encoding="utf-8"?>
+<cjstudio type="OnlineFriends">
+  <Data></Data>
+</cjstudio>
+
+<?xml version="1.0" encoding="utf-8"?>
+<cjstudio type="clientChat">
+  <From>
+    <IPAddress>127.0.0.1</IPAddress>
+    <Port>15184</Port>
+    <Name>ChatClient</Name>
+  </From>
+  <To>
+    <IPAddress>127.0.0.1</IPAddress>
+    <Port>2222</Port>
+    <Name></Name>
+  </To>
+  <Data>
+    <Font>����</Font>
+    <Text>sdfa</Text>
+    <Photo></Photo>
+  </Data>
+</cjstudio>
+
+<?xml version="1.0" encoding="utf-8"?>
+<cjstudio>
+  <From>
+    <IPAddress></IPAddress>
+    <Port></Port>
+    <Name></Name>
+  </From>
+  <Data>
+    <Id></Id>
+    <Password></Password>
+  </Data>
+</cjstudio>

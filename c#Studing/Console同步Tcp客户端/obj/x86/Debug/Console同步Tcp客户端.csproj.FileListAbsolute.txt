@@ -1,0 +1,5 @@
+E:\ClassBegins\C#网络编程\Chapter3\3-2\Console同步Tcp客户端\bin\Debug\Console同步Tcp客户端.exe
+E:\ClassBegins\C#网络编程\Chapter3\3-2\Console同步Tcp客户端\bin\Debug\Console同步Tcp客户端.pdb
+E:\ClassBegins\C#网络编程\Chapter3\3-2\Console同步Tcp客户端\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\ClassBegins\C#网络编程\Chapter3\3-2\Console同步Tcp客户端\obj\x86\Debug\Console同步Tcp客户端.exe
+E:\ClassBegins\C#网络编程\Chapter3\3-2\Console同步Tcp客户端\obj\x86\Debug\Console同步Tcp客户端.pdb

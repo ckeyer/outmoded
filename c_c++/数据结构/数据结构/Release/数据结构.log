@@ -1,0 +1,33 @@
+﻿生成启动时间为 2012/11/11 星期日 14:11:47。
+     1>项目“H:\WCJ\C++projiects\数据结构\数据结构\数据结构.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“H:\WCJ\C++projiects\数据结构\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\数据结构.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Visual Stadio 2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>Main.cpp(36): warning C4101: “i”: 未引用的局部变量
+     1>Main.cpp(100): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Visual Stadio 2010\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>Main.cpp(104): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Visual Stadio 2010\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>Main.cpp(93): warning C4101: “i”: 未引用的局部变量
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\数据结构.res" "数据结构.rc" 
+       Link:
+         D:\Visual Stadio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\WCJ\C++projiects\数据结构\Release\数据结构.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\数据结构.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\WCJ\C++projiects\数据结构\Release\数据结构.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\WCJ\C++projiects\数据结构\Release\数据结构.lib" /MACHINE:X86 "Release\数据结构.res"
+         Release\Main.obj
+         正在生成代码
+         已完成代码的生成
+         数据结构.vcxproj -> H:\WCJ\C++projiects\数据结构\Release\数据结构.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\WCJ\C++projiects\数据结构\Release\数据结构.exe;#1" /manifest "Release\数据结构.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\数据结构.unsuccessfulbuild”。
+         正在对“Release\数据结构.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\WCJ\C++projiects\数据结构\数据结构\数据结构.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.64

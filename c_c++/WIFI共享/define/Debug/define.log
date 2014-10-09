@@ -1,0 +1,47 @@
+﻿生成启动时间为 2013/3/17 星期日 1:54:04。
+     1>项目“H:\WCJ\C++projiects\WIFI共享\define\define.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\WIFI共享.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Visual Stadio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(72): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual stadio 2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(84): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual stadio 2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(86): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual stadio 2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(178): warning C4018: “>”: 有符号/无符号不匹配
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(193): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual stadio 2010\vc\include\time.inl(112) : 参见“localtime”的声明
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual stadio 2010\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(187): warning C4101: “a”: 未引用的局部变量
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(189): warning C4101: “str”: 未引用的局部变量
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(202): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual stadio 2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>h:\wcj\c++projiects\wifi共享\define\main.c(213): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual stadio 2010\vc\include\stdio.h(253) : 参见“fscanf”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Visual Stadio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\WCJ\C++projiects\WIFI共享\Debug\WIFI共享.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\WIFI共享.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\WCJ\C++projiects\WIFI共享\Debug\WIFI共享.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\WCJ\C++projiects\WIFI共享\Debug\WIFI共享.lib" /MACHINE:X86 Debug\define.res
+         "Debug\WIFI共享.exe.embed.manifest.res"
+         Debug\main.obj
+         Debug\newcfree.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\WIFI共享.exe.embed.manifest" /manifest "Debug\WIFI共享.exe.intermediate.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         define.vcxproj -> H:\WCJ\C++projiects\WIFI共享\Debug\WIFI共享.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\WIFI共享.unsuccessfulbuild”。
+         正在对“Debug\WIFI共享.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\WCJ\C++projiects\WIFI共享\define\define.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.58

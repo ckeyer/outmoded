@@ -1,0 +1,4 @@
+G:\code\C#\TCP_Server\pipeCLient\bin\Debug\pipeCLient.exe
+G:\code\C#\TCP_Server\pipeCLient\bin\Debug\pipeCLient.pdb
+G:\code\C#\TCP_Server\pipeCLient\obj\x86\Debug\pipeCLient.exe
+G:\code\C#\TCP_Server\pipeCLient\obj\x86\Debug\pipeCLient.pdb

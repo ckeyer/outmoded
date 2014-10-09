@@ -1,0 +1,6 @@
+ 杨金生等.计算机网络实验[M].北京:清华大学出版社
+ 孙鑫,余安萍.VC++深入详解[M] .北京:机械工业出版社
+ 姜山.HOOK专题．http://www.microsoft.com(论文上已有)
+宋宝华.深入浅出Visual C++动态链接库(Dll)编程.
+http://www.soft.yesky.com/lesson/318/2166818.shtml
+

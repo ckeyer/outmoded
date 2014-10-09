@@ -1,0 +1,6 @@
+G:\code\C#\DBEncode\DBEncode\bin\Debug\DBEncode.exe
+G:\code\C#\DBEncode\DBEncode\bin\Debug\DBEncode.pdb
+G:\code\C#\DBEncode\DBEncode\obj\x86\Debug\DBEncode.Properties.Resources.resources
+G:\code\C#\DBEncode\DBEncode\obj\x86\Debug\DBEncode.csproj.GenerateResource.Cache
+G:\code\C#\DBEncode\DBEncode\obj\x86\Debug\DBEncode.exe
+G:\code\C#\DBEncode\DBEncode\obj\x86\Debug\DBEncode.pdb

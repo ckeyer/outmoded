@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<birthday>
+  <NO1>
+    <type type="ffffuuuuuuucccccckkkkkkkkkk">类型1</type>
+    <date>时间1</date>
+    <title>信息1</title>
+    <name sex="女女女女女女">姓名1</name>
+  </NO1>
+  <NO2>
+    <type type="ffffuuuuuuucccccckkkkkkkkkk">类型2</type>
+    <date>时间2</date>
+    <title>信息2</title>
+    <name sex="女女女女女女">姓名2</name>
+  </NO2>
+</birthday>

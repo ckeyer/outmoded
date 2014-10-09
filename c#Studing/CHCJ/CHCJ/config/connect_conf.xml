@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cjstudio name="connect.conf">
+  <Project>
+    <Name>CHCJ</Name>
+    <Version>v1.0</Version>
+    <Author>CJ_Studio</Author>
+    <CreateTime>2014-5-7 下午</CreateTime>
+    <UpdateTime>2014-5-11 下午</UpdateTime>
+  </Project>
+  <Config>
+    <Server>
+      <IPAddress>127.0.0.1</IPAddress>
+      <PortTcp>2222</PortTcp>
+      <PortUdp>3333</PortUdp>
+      <TimeOut>5000</TimeOut>
+      <MaxRepeatTimes>3</MaxRepeatTimes>
+    </Server>
+  </Config>
+</cjstudio>

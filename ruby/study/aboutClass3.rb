@@ -32,7 +32,7 @@ p defined? Tom
 p defined? 3.12
 p defined? Tom.sayHi
 p $*
+
 class << Tom
 	undef_method(:sayHi)
-end	
-#Tom.sayHi
+end

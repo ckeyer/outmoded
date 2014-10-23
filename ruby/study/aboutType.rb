@@ -89,7 +89,6 @@ end
 def testSymbol
 	test = 4
 	k=:test
-	"test2".to_sym =2
 	puts k.class
 end
 

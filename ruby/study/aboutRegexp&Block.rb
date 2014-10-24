@@ -29,6 +29,7 @@ def test2
 	d=(1..100).inject(0) { |sum, i| sum+i }
 	puts "1+2+3+...+100=#{d}"
 end
+
 def fibonacii(max)
 	f1, f2 = 1, 1
 	while f1 <= max
@@ -37,3 +38,5 @@ def fibonacii(max)
 	end
 end
 fibonacii(1000) { |f| print f, " " }
+puts 
+

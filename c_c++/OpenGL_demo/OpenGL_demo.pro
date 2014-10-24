@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         cjwindow.cpp \
-    glwidget.cpp
+    glwidget.cpp \
+    cjtest1.cpp
 
 HEADERS  += cjwindow.h \
-    glwidget.h
+    glwidget.h \
+    cjtest1.h
 
 FORMS    += cjwindow.ui

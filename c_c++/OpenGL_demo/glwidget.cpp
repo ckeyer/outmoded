@@ -144,7 +144,7 @@ void GLWidget::paintGL()
 void GLWidget::resizeGL(int width, int height)
 {
     int side = qMin(width, height);
-    glViewport((width - side) / 2, (height - side) / 2, side, side);
+    glViewport((width - side) / 2, (height - side) /2, side, side);
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();

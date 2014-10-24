@@ -144,11 +144,18 @@ void GLWidget::paintGL()
 void GLWidget::resizeGL(int width, int height)
 {
     int side = qMin(width, height);
-    glViewport((width - side) / 2, (height - side) /2, side, side);
+//    glViewport((width - side) / 2, (height - side) /2, side, side);
 
+//    glMatrixMode(GL_PROJECTION);
+//    glLoadIdentity();
+//    glFrustum(-1.0, +1.0, -1.0, 1.0, 5.0, 60.0);
+
+
+    glViewport(0,0, width, height);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glFrustum(-1.0, +1.0, -1.0, 1.0, 5.0, 60.0);
+    glFrustum(-2.5, +2.5, -1.3, 1.2, 5.0, 60.0);
+
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
     glTranslated(0.0, 0.0, -40.0);

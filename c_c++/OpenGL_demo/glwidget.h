@@ -42,6 +42,7 @@
 #define GLWIDGET_H
 
 #include <QGLWidget>
+#include <QString>
 
 class GLWidget : public QGLWidget
 {

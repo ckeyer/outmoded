@@ -20,7 +20,7 @@ namespace MonitorService
         private XmlDocument xmlDoc;
         private XmlElement rootNode;
         public MsgSendHandle MsgSend; 
-        public const string logPath = "D:\\monitor\\tmp.log";
+        public const string logPath = "D:\\monitor\\Running.log";
         public string confFile = "D:\\monitor\\FileMonitor.conf";
         public String connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\\monitor\\monitoir.mdb";
         public int ServerPort = 93126;

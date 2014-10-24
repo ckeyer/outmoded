@@ -61,9 +61,17 @@
     </property>
     <addaction name="action_Home"/>
     <addaction name="action_test1"/>
+    <addaction name="actionTest_2"/>
+   </widget>
+   <widget class="QMenu" name="menuTEST">
+    <property name="title">
+     <string>TEST</string>
+    </property>
+    <addaction name="actionCLEAR"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menu_About"/>
+   <addaction name="menuTEST"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -84,13 +92,23 @@
   </action>
   <action name="action_Home">
    <property name="enabled">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="text">
     <string>&amp;Home</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+H</string>
+   </property>
+  </action>
+  <action name="actionCLEAR">
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </action>
+  <action name="actionTest_2">
+   <property name="text">
+    <string>Test&amp;2</string>
    </property>
   </action>
  </widget>

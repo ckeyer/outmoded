@@ -6,8 +6,8 @@ CJWindow::CJWindow(QWidget *parent) :
     ui(new Ui::CJWindow)
 {
     ui->setupUi(this);
-    this->init();
     uiStatus=NOTHING;
+    this->init();
 }
 CJWindow::~CJWindow()
 {
@@ -26,11 +26,19 @@ void CJWindow::clearHome()
         glWidgetHome=NULL;
         break;
     case TEST1:
+        this->testBox.information(ui->centralWidget,
+            tr("CJ_Studio"),tr("dispose cjtest1 start"));
         this->cjTest1->~CJTest1();
+        this->testBox.information(ui->centralWidget,
+            tr("CJ_Studio"),tr("dispose cjtest1 over"));
         cjTest1=NULL;
     case TEST2:
+        this->testBox.information(ui->centralWidget,
+                                  tr("CJ_Studio"),tr("dispose cjtest2 start"));
         this->cjTest2->~CJTest2();
         cjTest2=NULL;
+        this->testBox.information(ui->centralWidget,
+                                  tr("CJ_Studio"),tr("dispose cjtest2 over"));
     default:
         break;
     }

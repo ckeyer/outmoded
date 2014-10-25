@@ -1,8 +1,8 @@
 #include "cjtest1.h"
-const GLfloat PI = 3.1415926536f;
 
 CJTest1::CJTest1()
 {
+    const GLfloat PI = 3.1415926536f;
     short angle = 18;
     for(short i=0;i<5;++i)
     {

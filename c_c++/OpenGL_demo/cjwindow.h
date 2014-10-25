@@ -30,6 +30,7 @@ public:
     void showHome();
     void showTest1();
     void showTest2();
+    QMessageBox testBox;
     GLWidget *glWidgetHome;
     CJTest1 *cjTest1;
     CJTest2 *cjTest2;

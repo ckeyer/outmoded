@@ -26,19 +26,13 @@ void CJWindow::clearHome()
         glWidgetHome=NULL;
         break;
     case TEST1:
-        this->testBox.information(ui->centralWidget,
-            tr("CJ_Studio"),tr("dispose cjtest1 start"));
         this->cjTest1->~CJTest1();
-        this->testBox.information(ui->centralWidget,
-            tr("CJ_Studio"),tr("dispose cjtest1 over"));
         cjTest1=NULL;
+        break;
     case TEST2:
-        this->testBox.information(ui->centralWidget,
-                                  tr("CJ_Studio"),tr("dispose cjtest2 start"));
         this->cjTest2->~CJTest2();
         cjTest2=NULL;
-        this->testBox.information(ui->centralWidget,
-                                  tr("CJ_Studio"),tr("dispose cjtest2 over"));
+        break;
     default:
         break;
     }
@@ -95,6 +89,7 @@ void CJWindow::on_actionCLEAR_triggered()
 void CJWindow::on_action_test1_triggered()
 {
     this->clearHome();
+
     showTest1();
     ui->action_test1->setEnabled(false);
 }

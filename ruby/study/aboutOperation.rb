@@ -54,4 +54,16 @@ def test4
 	puts "Ok, I give up"
 end
 
-test4
+def test5
+	a,b = 4,5
+	puts a<=>b,b<=>a
+	a = 5
+	puts a<=>b,b===a
+end
+
+def test6(arg1,arg2,arg3)
+	puts arg3+arg2+arg1
+end
+
+test6(*(1..3).to_a)
+test6(1,2,3)

@@ -14,19 +14,8 @@ protected:
     void initializeGL();
     void paintGL();
     void resizeGL(int width, int height);
-    GLdouble Points[5][3];
-    GLdouble Points2[5][3];
-};
-
-class CJPoint
-{
-public:
-    GLfloat X,Y;
-    CJPoint(double x,double y)
-    {
-        this->X = x;
-        this->Y = y;
-    }
+    GLfloat Points[5][3];
+    GLfloat Points2[5][3];
 };
 
 #endif // CJTEST2_H

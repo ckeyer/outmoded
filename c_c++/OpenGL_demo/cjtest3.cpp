@@ -1,7 +1,7 @@
-#include "cjtest2.h"
+#include "cjtest3.h"
 #include "cjclass.h"
 
-CJTest2::CJTest2()
+CJTest3::CJTest3()
 {
     const GLfloat PI = 3.1415926536f;
     short angle = 18;
@@ -10,36 +10,26 @@ CJTest2::CJTest2()
         Points[i][0] = cos(angle * PI/180);
         Points[i][1] = sin(angle * PI/180);
         Points[i][2] = 0.0;
-
-        GLdouble x,y,z,wx,wy,wz;
-        x = cos(angle * PI/180);
-        y = sin(angle * PI/180);
-        z = 0.0;
-
         angle += 72;
-
-        GLdouble mProj[16];
-        GLdouble mView[16];
-        GLint mPort[4];
-//        //得到视图，投影，视口的矩阵
-        glGetDoublev(GL_PROJECTION_MATRIX,mProj);
-        glGetDoublev(GL_MODELVIEW_MATRIX,mView);
-        glGetIntegerv(GL_VIEWPORT,mPort);
-//        //模拟投影，视图，模型变换
-
-//        gluProject(x,y,z,mView,mProj,mPort,&wx,&wy,&wz);
-
-//        Points2[i][0] = wx;
-//        Points2[i][1] = wy;
-//        Points2[i][2] = wz;
     }
+    spin = 0;
 }
-
-CJTest2::~CJTest2()
+CJTest3::~CJTest3()
 {
     makeCurrent();
 }
-void CJTest2::initializeGL()
+void CJTest3::nextTag()
+{
+    //CJClass::showMsg(tr("sdfsdf"+spin));
+    spin+=1;
+    if(spin>360)
+    {
+        spin-=360;
+    }
+    updateGL();
+}
+
+void CJTest3::initializeGL()
 {
     glShadeModel(GL_SMOOTH);
 
@@ -54,14 +44,23 @@ void CJTest2::initializeGL()
     glEnableClientState(GL_VERTEX_ARRAY);
 
     glVertexPointer(3,GL_FLOAT,0,Points);
+
+    this->timer = new QTimer(this);
+    connect(timer, SIGNAL(timeout()), this, SLOT(nextTag()));
+    timer->start(20);
 }
 
-void CJTest2::paintGL()
+void CJTest3::paintGL()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
     glLoadIdentity();
+
     glTranslatef(-1.5,0.0,-6.0);
+
+    glPushMatrix();
+    glRotatef(spin,0,0,1.0);
+    glColor3f(1.0,1.0,1.0);
+
     const int countPoint=8;
     CJPoint *p[countPoint];
     GLdouble tmp = sqrt(2.0) /2 ;
@@ -84,29 +83,12 @@ void CJTest2::paintGL()
             }
         }
     glEnd();
+    glPopMatrix();
 
-//    glPushMatrix();
-//    glTranslated(dx, dy, dz);
-//    glRotated(angle, 0.0, 0.0, 1.0);
-//    glCallList(gear);
-//    glPopMatrix();
 
-//    glBegin(GL_TRIANGLES);
-//        glColor3f(1.0f,0.0f,0.0f);
-//        glColor3f(0.0f,1.0f,0.0f);
-//        glVertex3f(0.0,1.0,0.0);
-//        glColor3f(0.0f,0.0f,1.0f);
-//        glVertex3f(1.0,1.0,0.0);
-//        glColor3f(0.0f,1.0f,0.0f);
-//        glVertex3f(1.0,0.0,0.0);
-//    glEnd();
-
-    //glTranslatef(3.0,0.0,0.0);
-
-//    glVertexPointer(3,GL_FLOAT,0,Points);
-
+    glPushMatrix();
     glTranslatef(3.0,0.0,0.0);
-
+    glRotatef(-spin,0,0,1.0);
     glBegin(GL_LINE_LOOP);
         glArrayElement(1);
         glArrayElement(4);
@@ -114,9 +96,19 @@ void CJTest2::paintGL()
         glArrayElement(0);
         glArrayElement(3);
     glEnd();
+    glPopMatrix();
+
+}
+void CJTest3::drawOne()
+{
+//    glPushMatrix();
+//    glTranslated(dx, dy, dz);
+//    glRotated(spin, 0.0, 0.0, 1.0);
+//    glCallList(gear);
+//    glPopMatrix();
 }
 
-void CJTest2::resizeGL(int width, int height)
+void CJTest3::resizeGL(int width, int height)
 {
     int side = qMin(width, height);
     glViewport(0,0, width, height);

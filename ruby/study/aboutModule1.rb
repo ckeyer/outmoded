@@ -6,9 +6,10 @@ module Module1
     def print_version
         puts "v1.0.1"
     end
-    def addPi(ver)
-        return Math::PI + var
+    
+    def addPi(var)
+        return Math::PI * var
     end
-    end
+end 
 include  Module1
-p Module1::addPi(12)
+p Module1::addPi(2)

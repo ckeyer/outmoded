@@ -16,11 +16,15 @@ SOURCES += main.cpp\
         cjwindow.cpp \
     glwidget.cpp \
     cjtest1.cpp \
-    cjtest2.cpp
+    cjtest2.cpp \
+    cjtest3.cpp \
+    cjclass.cpp
 
 HEADERS  += cjwindow.h \
     glwidget.h \
     cjtest1.h \
-    cjtest2.h
+    cjtest2.h \
+    cjtest3.h \
+    cjclass.h
 
 FORMS    += cjwindow.ui

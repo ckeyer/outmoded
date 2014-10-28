@@ -15,7 +15,7 @@ CJWindow::~CJWindow()
 }
 void CJWindow::init()
 {
-    this->showTest2();
+    this->showTest3();
 }
 
 void CJWindow::clearHome()
@@ -33,6 +33,10 @@ void CJWindow::clearHome()
         this->cjTest2->~CJTest2();
         cjTest2=NULL;
         break;
+    case TEST3:
+        this->cjTest3->~CJTest3();
+        cjTest3=NULL;
+        break;
     default:
         break;
     }
@@ -40,6 +44,7 @@ void CJWindow::clearHome()
     ui->action_Home->setEnabled(true);
     ui->action_test1->setEnabled(true);
     ui->actionTest_2->setEnabled(true);
+    ui->actionTest_3->setEnabled(true);
 }
 void CJWindow::showHome()
 {
@@ -74,6 +79,17 @@ void CJWindow::showTest2()
     ui->scrollArea_home->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
     ui->scrollArea_home->setMinimumSize(50, 50);
 }
+void CJWindow::showTest3()
+{
+    uiStatus=TEST3;
+    this->cjTest3 = new CJTest3;
+    ui->scrollArea_home->setWidget(cjTest3);
+    ui->scrollArea_home->setWidgetResizable(true);
+    ui->scrollArea_home->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    ui->scrollArea_home->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    ui->scrollArea_home->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+    ui->scrollArea_home->setMinimumSize(50, 50);
+}
 
 void CJWindow::on_action_Home_triggered()
 {
@@ -83,7 +99,8 @@ void CJWindow::on_action_Home_triggered()
 }
 void CJWindow::on_actionCLEAR_triggered()
 {
-    this->clearHome();
+    //this->clearHome();
+    this->cjTest3->timer->start(200);
 }
 
 void CJWindow::on_action_test1_triggered()
@@ -98,4 +115,11 @@ void CJWindow::on_actionTest_2_triggered()
     this->clearHome();
     showTest2();
     ui->actionTest_2->setEnabled(false);
+}
+
+void CJWindow::on_actionTest_3_triggered()
+{
+    this->clearHome();
+    showTest3();
+    ui->actionTest_3->setEnabled(false);
 }

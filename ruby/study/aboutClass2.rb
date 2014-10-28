@@ -1,6 +1,8 @@
 $text = "Hero"	# 
 
 class Person
+	include Comparable
+	attr_accessor :age
 	Pi=3.1415
 	@@count=0
 	def initialize(name, gender, age)
@@ -8,6 +10,9 @@ class Person
 		@gender = gender
 		@age = age
 		@@count+=1
+	end
+	def <=>(aPerson)
+		@age<=>aPerson.age
 	end
 	def name
 		@name
@@ -17,6 +22,8 @@ class Person
 	end
 end
 people = Person.new('Tom', 'male', 15)
+p2 = Person.new("jack","male",21)
+puts  people < p2
 puts people.name
 people.pCount
 p Person::Pi

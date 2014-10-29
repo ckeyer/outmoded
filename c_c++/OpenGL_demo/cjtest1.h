@@ -4,8 +4,8 @@
 #include <QGLWidget>
 #include <QtMath>
 #include <QtGui/QtGui>
-#include <GL/glu.h>
 #include <QString>
+#include <GL/glu.h>
 
 class CJTest1 : public QGLWidget
 {

@@ -1,9 +1,11 @@
 #ifndef CJTEST2_H
 #define CJTEST2_H
 
+//#include <GL/glu.h>
 #include <QGLWidget>
-#include <GL/glu.h>
 #include <math.h>
+#include "cjclass.h"
+
 
 class CJTest2 : public QGLWidget
 {

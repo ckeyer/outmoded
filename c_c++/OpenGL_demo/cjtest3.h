@@ -1,12 +1,12 @@
 #ifndef CJTEST3_H
 #define CJTEST3_H
 
+//#include <GL/glu.h>
 #include <QGLWidget>
 #include <QMessageBox>
-#include <GL/glut.h>
-#include <GL/glu.h>
-#include <math.h>
 #include <QTimer>
+#include <math.h>
+#include "cjclass.h"
 
 class CJTest3 : public QGLWidget
 {

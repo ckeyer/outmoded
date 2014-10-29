@@ -1,5 +1,6 @@
+
 #include "cjtest2.h"
-#include "cjclass.h"
+#include <gl/GLU.h>
 
 CJTest2::CJTest2()
 {
@@ -21,17 +22,21 @@ CJTest2::CJTest2()
         GLdouble mProj[16];
         GLdouble mView[16];
         GLint mPort[4];
-//        //得到视图，投影，视口的矩阵
+//        得到视图，投影，视口的矩阵
         glGetDoublev(GL_PROJECTION_MATRIX,mProj);
         glGetDoublev(GL_MODELVIEW_MATRIX,mView);
         glGetIntegerv(GL_VIEWPORT,mPort);
-//        //模拟投影，视图，模型变换
+//        模拟投影，视图，模型变换
 
-//        gluProject(x,y,z,mView,mProj,mPort,&wx,&wy,&wz);
+        gluProject(x,y,z,mView,mProj,mPort,&wx,&wy,&wz);
 
-//        Points2[i][0] = wx;
-//        Points2[i][1] = wy;
-//        Points2[i][2] = wz;
+        CJClass::showMsg(QString::number(x)+"#"+QString::number(wx)+"\n"
+                         +QString::number(y)+"#"+QString::number(wy)+"\n"
+                         +QString::number(z)+"#"+QString::number(wz));
+
+        Points2[i][0] = wx;
+        Points2[i][1] = wy;
+        Points2[i][2] = wz;
     }
 }
 
@@ -53,7 +58,7 @@ void CJTest2::initializeGL()
 
     glEnableClientState(GL_VERTEX_ARRAY);
 
-    glVertexPointer(3,GL_FLOAT,0,Points);
+    glVertexPointer(3,GL_FLOAT,0,Points2);
 }
 
 void CJTest2::paintGL()

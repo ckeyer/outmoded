@@ -12,3 +12,7 @@ void CJClass::showMsg(QString msg, QString title)
 {
     QMessageBox::information(0,title,msg);
 }
+void CJClass::showMsg(double num)
+{
+    QMessageBox::information(0,"CJ_Studio",QString::number(num),0,0);
+}

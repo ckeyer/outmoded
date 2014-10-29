@@ -40,11 +40,6 @@
 
 #include "glwidget.h"
 
-#include <QMouseEvent>
-#include <QTimer>
-
-#include <math.h>
-
 GLWidget::GLWidget(QWidget *parent)
     : QGLWidget(parent)
 {

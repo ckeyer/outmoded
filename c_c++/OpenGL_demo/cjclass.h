@@ -1,23 +1,24 @@
 #ifndef CJCLASS_H
 #define CJCLASS_H
 
-#include <GL/glu.h>
 #include <QMessageBox>
 #include <QString>
-#include <QWidget>
+//#include <GL/glu.h>
 
 class CJClass
 {
 public:
     CJClass();
     void static showMsg(QString msg);
+    void static showMsg(double num);
     void static showMsg(QString msg,QString title);
 };
 
 class CJPoint
 {
 public:
-    GLfloat X,Y;
+
+    double X,Y;
     CJPoint(double x,double y)
     {
         this->X = x;

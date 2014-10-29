@@ -1,5 +1,6 @@
+
 #include "cjtest3.h"
-#include "cjclass.h"
+
 
 CJTest3::CJTest3()
 {

@@ -43,6 +43,10 @@
 
 #include <QGLWidget>
 #include <QString>
+#include <QMouseEvent>
+#include <QTimer>
+#include <math.h>
+
 
 class GLWidget : public QGLWidget
 {

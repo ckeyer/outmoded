@@ -1,41 +1,37 @@
 
-#include "cjtest3.h"
+#include "cjtest4gl.h"
 
 
-CJTest3::CJTest3()
+const GLfloat PI = 3.1415926536f;
+CJTest4GL::CJTest4GL()
 {
-    const GLfloat PI = 3.1415926536f;
+    this->countPoints = 5;
     short angle = 18;
-    for(short i=0;i<5;++i)
-    {
-        Points[i][0] = cos(angle * PI/180);
-        Points[i][1] = sin(angle * PI/180);
-        Points[i][2] = 0.0;
-        angle += 72;
-    }
-    angle = 18;
-    for(short i=0;i<COUNTPOINTS;++i)
+    for(short i=0;i<countPoints;++i)
     {
         this->pPoints[i]=new CJPoint( cos(angle * PI/180),
                           sin(angle * PI/180) );
-        angle += 360 / COUNTPOINTS;
+        angle += 360 / countPoints;
     }
-//    GLdouble tmp = sqrt(2.0) /2 ;
-//    p[0]=new CJPoint(-1.0,0.0);
-//    p[1]=new CJPoint(-tmp,tmp);
-//    p[2]=new CJPoint(0.0,1.0);
-//    p[3]=new CJPoint(tmp,tmp);
-//    p[4]=new CJPoint(1.0,0.0);
-//    p[5]=new CJPoint(tmp,-tmp);
-//    p[6]=new CJPoint(0.0,-1.0);
-//    p[7]=new CJPoint(-tmp,-tmp);
     spin = 0;
 }
-CJTest3::~CJTest3()
+CJTest4GL::CJTest4GL(int points)
+{
+    this->countPoints = points;
+    short angle = 18;
+    for(short i=0;i<countPoints;++i)
+    {
+        this->pPoints[i]=new CJPoint( cos(angle * PI/180),
+                          sin(angle * PI/180) );
+        angle += 360 / countPoints;
+    }
+    spin = 0;
+}
+CJTest4GL::~CJTest4GL()
 {
     makeCurrent();
 }
-void CJTest3::nextTag()
+void CJTest4GL::nextTag()
 {
     //CJClass::showMsg(tr("sdfsdf"+spin));
     spin+=1;
@@ -45,8 +41,19 @@ void CJTest3::nextTag()
     }
     updateGL();
 }
+void CJTest4GL::chageCountPoints(int pointCount)
+{
+    this->countPoints = pointCount;
+    short angle = 18;
+    for(short i=0;i<countPoints;++i)
+    {
+        this->pPoints[i]=new CJPoint( cos(angle * PI/180),
+                          sin(angle * PI/180) );
+        angle += 360 / countPoints;
+    }
+}
 
-void CJTest3::initializeGL()
+void CJTest4GL::initializeGL()
 {
     glShadeModel(GL_SMOOTH);
 
@@ -60,14 +67,13 @@ void CJTest3::initializeGL()
 
     glEnableClientState(GL_VERTEX_ARRAY);
 
-    glVertexPointer(3,GL_FLOAT,0,Points);
 
     this->timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(nextTag()));
     timer->start(20);
 }
 
-void CJTest3::paintGL()
+void CJTest4GL::paintGL()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();
@@ -80,9 +86,9 @@ void CJTest3::paintGL()
 
 
     glBegin(GL_LINE_LOOP);
-        for(int i=0;i<COUNTPOINTS-1;i++)
+        for(int i=0;i<countPoints-1;i++)
         {
-            for(int j=i+1;j<COUNTPOINTS;j++)
+            for(int j=i+1;j<countPoints;j++)
             {
                 glVertex3f(pPoints[i]->X,pPoints[i]->Y,0.0);
                 glVertex3f(pPoints[j]->X,pPoints[j]->Y,0.0);
@@ -91,30 +97,9 @@ void CJTest3::paintGL()
     glEnd();
     glPopMatrix();
 
-
-    glPushMatrix();
-    glTranslatef(3.0,0.0,0.0);
-    glRotatef(-spin,0,0,1.0);
-    glBegin(GL_LINE_LOOP);
-        glArrayElement(1);
-        glArrayElement(4);
-        glArrayElement(2);
-        glArrayElement(0);
-        glArrayElement(3);
-    glEnd();
-    glPopMatrix();
-
-}
-void CJTest3::drawOne()
-{
-//    glPushMatrix();
-//    glTranslated(dx, dy, dz);
-//    glRotated(spin, 0.0, 0.0, 1.0);
-//    glCallList(gear);
-//    glPopMatrix();
 }
 
-void CJTest3::resizeGL(int width, int height)
+void CJTest4GL::resizeGL(int width, int height)
 {
     int side = qMin(width, height);
     glViewport(0,0, width, height);

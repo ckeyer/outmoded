@@ -16,6 +16,8 @@ protected:
     void initializeGL();
     void paintGL();
     void resizeGL(int width, int height);
+private:
+    CJClass Points3[];
     GLfloat Points[5][3];
     GLfloat Points2[5][3];
 };

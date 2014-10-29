@@ -1,5 +1,5 @@
-#ifndef CJTEST3_H
-#define CJTEST3_H
+#ifndef CJTEST4GL_H
+#define CJTEST4GL_H
 
 //#include <GL/glu.h>
 #include <QGLWidget>
@@ -8,27 +8,28 @@
 #include <math.h>
 #include "cjclass.h"
 
-#define COUNTPOINTS 36
+#define MAXCOUNTPOINTS 36
 
-class CJTest3 : public QGLWidget
+class CJTest4GL : public QGLWidget
 {
     Q_OBJECT
 
 public:
-    CJTest3();
+    CJTest4GL();
+    CJTest4GL(int Points);
     QTimer *timer;
-    ~CJTest3();
+    ~CJTest4GL();
+    int countPoints;
 protected:
     void initializeGL();
     void paintGL();
     void resizeGL(int width, int height);
-    void drawOne();
 private:
-    GLfloat Points[5][3];
-    GLfloat Points2[5][3];
-    CJPoint *pPoints[COUNTPOINTS];
+    CJPoint *pPoints[MAXCOUNTPOINTS];
     int spin;
 private slots:
     void nextTag();
+public slots:
+    void chageCountPoints(int a);
 };
-#endif // CJTEST3_H
+#endif // CJTEST4GL_H

@@ -63,6 +63,7 @@
     <addaction name="action_test1"/>
     <addaction name="actionTest_2"/>
     <addaction name="actionTest_3"/>
+    <addaction name="actionTest_4"/>
    </widget>
    <widget class="QMenu" name="menuTEST">
     <property name="title">
@@ -115,6 +116,11 @@
   <action name="actionTest_3">
    <property name="text">
     <string>Test&amp;3</string>
+   </property>
+  </action>
+  <action name="actionTest_4">
+   <property name="text">
+    <string>Test&amp;4</string>
    </property>
   </action>
  </widget>

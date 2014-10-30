@@ -20,5 +20,6 @@ HEADERS += \
     worker.h \
     manager.h \
     saler.h \
-    employeemanager.h
+    employeemanager.h \
+    test.h
 

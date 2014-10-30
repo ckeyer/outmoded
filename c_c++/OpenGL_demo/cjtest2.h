@@ -17,9 +17,9 @@ protected:
     void paintGL();
     void resizeGL(int width, int height);
 private:
-    CJClass Points3[];
-    GLfloat Points[5][3];
-    GLfloat Points2[5][3];
+//    CJClass Points3[];
+    float Points[5][3];
+    float Points2[5][3];
 };
 
 #endif // CJTEST2_H

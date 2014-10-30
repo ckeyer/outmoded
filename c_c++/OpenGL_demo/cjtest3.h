@@ -8,7 +8,7 @@
 #include <math.h>
 #include "cjclass.h"
 
-#define COUNTPOINTS 36
+#define COUNTPOINTS 18
 
 class CJTest3 : public QGLWidget
 {

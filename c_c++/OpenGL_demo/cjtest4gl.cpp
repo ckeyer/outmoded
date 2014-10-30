@@ -6,7 +6,7 @@ const GLfloat PI = 3.1415926536f;
 CJTest4GL::CJTest4GL()
 {
     this->countPoints = 5;
-    short angle = 18;
+    short angle = 0;
     for(short i=0;i<countPoints;++i)
     {
         this->pPoints[i]=new CJPoint( cos(angle * PI/180),
@@ -18,12 +18,12 @@ CJTest4GL::CJTest4GL()
 CJTest4GL::CJTest4GL(int points)
 {
     this->countPoints = points;
-    short angle = 18;
+    double angle = 0.0;
     for(short i=0;i<countPoints;++i)
     {
         this->pPoints[i]=new CJPoint( cos(angle * PI/180),
                           sin(angle * PI/180) );
-        angle += 360 / countPoints;
+        angle += 360.0 / countPoints;
     }
     spin = 0;
 }
@@ -44,12 +44,12 @@ void CJTest4GL::nextTag()
 void CJTest4GL::chageCountPoints(int pointCount)
 {
     this->countPoints = pointCount;
-    short angle = 18;
+    double angle = 0.0;
     for(short i=0;i<countPoints;++i)
     {
         this->pPoints[i]=new CJPoint( cos(angle * PI/180),
                           sin(angle * PI/180) );
-        angle += 360 / countPoints;
+        angle += 360.0 / countPoints;
     }
 }
 

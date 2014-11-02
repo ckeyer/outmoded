@@ -25,11 +25,14 @@ protected:
     void paintGL();
     void resizeGL(int width, int height);
 private:
+    double max_x,min_x, max_y,min_y,step_x,step_y,now_x,now_y;
     CJPoint *pPoints[MAXCOUNTPOINTS];
     int spin;
 private slots:
     void nextTag();
 public slots:
     void chageCountPoints(int a);
+    void chageXSpeed(int a);
+    void chageYSpeed(int a);
 };
 #endif // CJTEST4GL_H

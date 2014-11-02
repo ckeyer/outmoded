@@ -15,6 +15,8 @@ public:
     explicit CJTest4(QWidget *parent = 0);
     ~CJTest4();
     QDial *dial;
+    QDial *dialxspeed;
+    QDial *dialyspeed;
 private:
     QLabel *label;
     CJTest4GL *test4gl;

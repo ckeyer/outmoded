@@ -8,6 +8,7 @@
 #include "cjtest2.h"
 #include "cjtest3.h"
 #include "cjtest4.h"
+#include "cjtest5.h"
 
 namespace Ui {
 class CJWindow;
@@ -21,7 +22,8 @@ class CJWindow : public QMainWindow
         TEST1,
         TEST2,
         TEST3,
-        TEST4
+        TEST4,
+        TEST5
     };
 
     Q_OBJECT
@@ -36,12 +38,14 @@ public:
     void showTest2();
     void showTest3();
     void showTest4();
+    void showTest5();
     QMessageBox testBox;
     GLWidget *glWidgetHome;
     CJTest1 *cjTest1;
     CJTest2 *cjTest2;
     CJTest3 *cjTest3;
     CJTest4 *cjTest4;
+    CJTest5 *cjTest5;
 
 private slots:
     void on_action_test1_triggered();
@@ -56,6 +60,7 @@ private slots:
 
     void on_actionTest_4_triggered();
 
+    void on_actionTest_5_triggered();
 
 private:
     Ui::CJWindow *ui;

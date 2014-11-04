@@ -15,8 +15,8 @@ CJWindow::~CJWindow()
 }
 void CJWindow::init()
 {
-//    this->showTest3();
-    this->showHome();
+    this->showTest5();
+//    this->showHome();
 }
 
 void CJWindow::clearHome()
@@ -42,6 +42,10 @@ void CJWindow::clearHome()
         this->cjTest4->~CJTest4();
         cjTest4=NULL;
         break;
+    case TEST5:
+        this->cjTest5->~CJTest5();
+        cjTest5=NULL;
+        break;
     default:
         break;
     }
@@ -51,6 +55,7 @@ void CJWindow::clearHome()
     ui->actionTest_2->setEnabled(true);
     ui->actionTest_3->setEnabled(true);
     ui->actionTest_4->setEnabled(true);
+    ui->actionTest_5->setEnabled(true);
 }
 void CJWindow::showHome()
 {
@@ -110,6 +115,20 @@ void CJWindow::showTest4()
 //    connect(test4dial,SIGNAL(actionTriggered(int)), cjTest4, SLOT(chageCountPoints(int)));
 //    connect(test4dial,SIGNAL(actionTriggered(int)), test4label,SLOT(setNum(int)));
 }
+void CJWindow::showTest5()
+{
+    uiStatus=TEST5;
+    this->cjTest5 = new CJTest5;
+    ui->scrollArea_home->setWidget(cjTest5);
+    ui->scrollArea_home->setWidgetResizable(true);
+    ui->scrollArea_home->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    ui->scrollArea_home->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    ui->scrollArea_home->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+    ui->scrollArea_home->setMinimumSize(50, 50);
+
+//    connect(test4dial,SIGNAL(actionTriggered(int)), cjTest4, SLOT(chageCountPoints(int)));
+//    connect(test4dial,SIGNAL(actionTriggered(int)), test4label,SLOT(setNum(int)));
+}
 
 void CJWindow::on_action_Home_triggered()
 {
@@ -149,4 +168,11 @@ void CJWindow::on_actionTest_4_triggered()
     this->clearHome();
     showTest4();
     ui->actionTest_4->setEnabled(false);
+}
+
+void CJWindow::on_actionTest_5_triggered()
+{
+    this->clearHome();
+    showTest5();
+    ui->actionTest_5->setEnabled(false);
 }

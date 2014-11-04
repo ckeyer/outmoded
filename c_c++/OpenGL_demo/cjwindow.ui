@@ -31,7 +31,7 @@
            <x>0</x>
            <y>0</y>
            <width>570</width>
-           <height>275</height>
+           <height>281</height>
           </rect>
          </property>
         </widget>
@@ -47,7 +47,7 @@
      <x>0</x>
      <y>0</y>
      <width>592</width>
-     <height>28</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_About">
@@ -64,6 +64,7 @@
     <addaction name="actionTest_2"/>
     <addaction name="actionTest_3"/>
     <addaction name="actionTest_4"/>
+    <addaction name="actionTest_5"/>
    </widget>
    <widget class="QMenu" name="menuTEST">
     <property name="title">
@@ -121,6 +122,11 @@
   <action name="actionTest_4">
    <property name="text">
     <string>Test&amp;4</string>
+   </property>
+  </action>
+  <action name="actionTest_5">
+   <property name="text">
+    <string>Test&amp;5</string>
    </property>
   </action>
  </widget>

@@ -1,12 +1,11 @@
-#include <windows.h>
 
 // C RunTime Header Files
 #include <stdlib.h>
 #include <malloc.h>
 #include <memory.h>
-#include <tchar.h>
+//#include <tchar.h>
 #include <math.h>
-#include <gl/GLU.h>
+#include <GL/glu.h>
 
 #define pi 3.1415926
 #define SOLID 3000

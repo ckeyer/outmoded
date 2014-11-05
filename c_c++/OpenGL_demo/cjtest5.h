@@ -14,12 +14,12 @@ class CJTest5 : public QWidget
 public:
     explicit CJTest5(QWidget *parent = 0);
     ~CJTest5();
-    QDial *dial;
+private:
+    CJTest5GL *test5gl;
     QDial *dialxspeed;
     QDial *dialyspeed;
-private:
-    QLabel *label;
-    CJTest5GL *test5gl;
+    QDial *dialzspeed;
+    QDial *dialpoints;
 signals:
 
 public slots:

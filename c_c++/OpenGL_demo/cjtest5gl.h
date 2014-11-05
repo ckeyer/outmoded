@@ -5,6 +5,7 @@
 #include <QGLWidget>
 #include <QMessageBox>
 #include <QMouseEvent>
+#include <QWheelEvent>
 #include <QTimer>
 #include <math.h>
 #include "cjclass.h"
@@ -45,11 +46,12 @@ private:
     point* getPointMatrix(GLfloat radius,GLint slices);
     void mousePressEvent(QMouseEvent *event);
     void mouseMoveEvent(QMouseEvent *event);
+    void wheelEvent(QWheelEvent *event);
 
     int xRot;
     int yRot;
     int zRot;
-
+    int point_count;
     QPoint lastPos;
 
 private slots:
@@ -61,5 +63,6 @@ public slots:
     void chageXSpeed(int a);
     void chageYSpeed(int a);
     void chageZSpeed(int a);
+    void chagePoints(int a);
 };
 #endif // CJTEST5GL_H

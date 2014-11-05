@@ -15,8 +15,8 @@ CJWindow::~CJWindow()
 }
 void CJWindow::init()
 {
-    this->showTest5();
-//    this->showHome();
+//    this->showTest5();
+    this->showHome();
 }
 
 void CJWindow::clearHome()

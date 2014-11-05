@@ -10,7 +10,8 @@ CJTest5GL::CJTest5GL()
     now_z = 0;
     speed_x = 0;
     speed_y = 0;
-    speed_z = 1;
+    speed_z = 0;
+    point_count = 2;
 }
 CJTest5GL::~CJTest5GL()
 {
@@ -36,6 +37,10 @@ void CJTest5GL::chageZSpeed(int a)
 {
     this->speed_z = a;
 }
+void CJTest5GL::chagePoints(int a)
+{
+    this->point_count = a ;
+}
 void CJTest5GL::initializeGL()
 {
     glClearColor (0.0, 0.0, 0.0, 0.0);
@@ -55,7 +60,6 @@ void CJTest5GL::initializeGL()
     glEnable(GL_DEPTH_TEST);
     glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
 
-
     this->timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(nextTag()));
     timer->start(10);
@@ -71,7 +75,7 @@ void CJTest5GL::paintGL()
     glRotated(now_y,0,1,0);
     glRotated(now_z,0,0,1);
     glColor3f(1.0,1.0,1.0);
-    drawSphere(200,20,WIRE);
+    drawSphere(200,point_count,WIRE);
     glFlush();
 }
 
@@ -134,7 +138,7 @@ int CJTest5GL::drawSphere(GLfloat radius,GLint slices,SPHERE_MODE mode)
     for(;i<h-1;i++)
     {
         for(j=0;j<w-1;j++)
-        drawSlice(mx[i*w+j],mx[i*w+j+1],mx[(i+1)*w+j+1],mx[(i+1)*w+j],mode);
+            drawSlice(mx[i*w+j],mx[i*w+j+1],mx[(i+1)*w+j+1],mx[(i+1)*w+j],mode);
         drawSlice(mx[i*w+j],mx[i*w],mx[(i+1)*w],mx[(i+1)*w+j],mode);
     }
     free(mx);
@@ -150,6 +154,7 @@ void CJTest5GL::mouseMoveEvent(QMouseEvent *event)
     int dx = event->x() - lastPos.x();
     int dy = event->y() - lastPos.y();
 
+
     if (event->buttons() & Qt::LeftButton) {
         setXRotation(xRot + 8 * dy);
         setYRotation(yRot + 8 * dx);
@@ -159,37 +164,28 @@ void CJTest5GL::mouseMoveEvent(QMouseEvent *event)
     }
     lastPos = event->pos();
 }
+void CJTest5GL::wheelEvent(QWheelEvent *event)
+{
+    if(event->delta() > 0 && point_count < 72)
+    {
+        point_count += 1;
+    }else if(event->delta() < 0 && point_count >2)
+    {
+        point_count -= 1;
+    }
+}
 
 void CJTest5GL::setXRotation(int angle)
 {
-//    normalizeAngle(&angle);
-//    if (angle != xRot) {
-//        xRot = angle;
-//        emit xRotationChanged(angle);
-//        updateGL();
-//    }
-    now_x += angle/10;
+    now_x += angle/5;
 }
 
 void CJTest5GL::setYRotation(int angle)
 {
-//    normalizeAngle(&angle);
-//    if (angle != yRot) {
-//        yRot = angle;
-//        emit yRotationChanged(angle);
-//        updateGL();
-//    }
-    now_y += angle/10;
+    now_y += angle/5;
 }
 
 void CJTest5GL::setZRotation(int angle)
 {
-//    normalizeAngle(&angle);
-//    if (angle != zRot) {
-//        zRot = angle;
-//        emit zRotationChanged(angle);
-//        updateGL();
-//    }
-
-    now_z += angle/10;
+    now_z += angle/5;
 }

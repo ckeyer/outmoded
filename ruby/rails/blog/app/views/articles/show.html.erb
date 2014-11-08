@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title><%= @article.title %></title>
+</head>
+<body>
+	<p>
+		<strong>Title:</strong>
+		<%= @article.title %>
+	</p>
+
+	<p>
+		<strong>Text:</strong>
+		<%= @article.content %>
+	</p>
+	<p>
+		<strong>Created_at:</strong>
+		<%= @article.created_at.strftime("%H:%M:%S %A  %Z") %>
+	</p>
+	<p>
+		<strong>Update_at:</strong>
+		<%= @article.updated_at %>
+	</p>
+</body>
+</html>

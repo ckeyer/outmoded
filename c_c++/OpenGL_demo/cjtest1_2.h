@@ -1,5 +1,5 @@
-#ifndef CJTEST1_H
-#define CJTEST1_H
+#ifndef CJTEST1_2_H
+#define CJTEST1_2_H
 
 #include <QGLWidget>
 #include <QtMath>
@@ -7,11 +7,11 @@
 #include <QString>
 #include <GL/glu.h>
 
-class CJTest1 : public QGLWidget
+class CJTest1_2 : public QGLWidget
 {
 public:
-    CJTest1();
-    ~CJTest1();
+    CJTest1_2();
+    ~CJTest1_2();
 protected:
     void initializeGL();
     void paintGL();
@@ -20,4 +20,4 @@ private :
     GLfloat Point[5][3];
 };
 
-#endif // CJTEST1_H
+#endif // CJTEST1_2_H

@@ -23,7 +23,8 @@ SOURCES += main.cpp\
     cjtest4.cpp \
     cjtest5.cpp \
     cjtest5gl.cpp \
-    tmp.cpp
+    tmp.cpp \
+    cjtest1_2.cpp
 
 HEADERS  += cjwindow.h \
     glwidget.h \
@@ -34,6 +35,7 @@ HEADERS  += cjwindow.h \
     cjtest4gl.h \
     cjtest4.h \
     cjtest5.h \
-    cjtest5gl.h
+    cjtest5gl.h \
+    cjtest1_2.h
 
 FORMS    += cjwindow.ui

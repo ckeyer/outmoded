@@ -26,6 +26,10 @@ void CJWindow::clearHome()
         this->glWidgetHome->~GLWidget();
         glWidgetHome=NULL;
         break;
+    case TEST1_2:
+        this->cjTest1_2->~CJTest1_2();
+        cjTest1_2=NULL;
+        break;
     case TEST1:
         this->cjTest1->~CJTest1();
         cjTest1=NULL;
@@ -52,6 +56,7 @@ void CJWindow::clearHome()
     uiStatus = NOTHING;
     ui->action_Home->setEnabled(true);
     ui->action_test1->setEnabled(true);
+    ui->actionTest1_2->setEnabled(true);
     ui->actionTest_2->setEnabled(true);
     ui->actionTest_3->setEnabled(true);
     ui->actionTest_4->setEnabled(true);
@@ -73,6 +78,17 @@ void CJWindow::showTest1()
     uiStatus=TEST1;
     this->cjTest1 = new CJTest1;
     ui->scrollArea_home->setWidget(cjTest1);
+    ui->scrollArea_home->setWidgetResizable(true);
+    ui->scrollArea_home->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    ui->scrollArea_home->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    ui->scrollArea_home->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
+    ui->scrollArea_home->setMinimumSize(50, 50);
+}
+void CJWindow::showTest1_2()
+{
+    uiStatus=TEST1_2;
+    this->cjTest1_2 = new CJTest1_2;
+    ui->scrollArea_home->setWidget(cjTest1_2);
     ui->scrollArea_home->setWidgetResizable(true);
     ui->scrollArea_home->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     ui->scrollArea_home->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -179,5 +195,7 @@ void CJWindow::on_actionTest_5_triggered()
 
 void CJWindow::on_actionTest1_2_triggered()
 {
-
+    this->clearHome();
+    showTest1_2();
+    ui->actionTest1_2->setEnabled(false);
 }

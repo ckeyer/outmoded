@@ -1,6 +1,6 @@
-#include "cjtest1.h"
+#include "cjtest1_2.h"
 
-CJTest1::CJTest1()
+CJTest1_2::CJTest1_2()
 {
     const GLfloat PI = 3.1415926536f;
     short angle = 18;
@@ -13,12 +13,12 @@ CJTest1::CJTest1()
     }
 }
 
-CJTest1::~CJTest1()
+CJTest1_2::~CJTest1_2()
 {
     makeCurrent();
 }
 
-void CJTest1::initializeGL()
+void CJTest1_2::initializeGL()
 {
     glShadeModel(GL_SMOOTH);
 
@@ -34,7 +34,7 @@ void CJTest1::initializeGL()
     glVertexPointer(3,GL_FLOAT,0,Point);
 }
 
-void CJTest1::paintGL()
+void CJTest1_2::paintGL()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -58,7 +58,7 @@ void CJTest1::paintGL()
     glEnd();
 }
 
-void CJTest1::resizeGL(int width, int height)
+void CJTest1_2::resizeGL(int width, int height)
 {
     int side = qMin(width, height);
 //    glViewport((width - side) / 2 , (height - side) / 2, side, side);

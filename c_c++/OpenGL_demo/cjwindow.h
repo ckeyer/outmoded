@@ -5,6 +5,7 @@
 #include <QMessageBox>
 #include "glwidget.h"
 #include "cjtest1.h"
+#include "cjtest1_2.h"
 #include "cjtest2.h"
 #include "cjtest3.h"
 #include "cjtest4.h"
@@ -20,6 +21,7 @@ class CJWindow : public QMainWindow
         NOTHING,
         HOME,
         TEST1,
+        TEST1_2,
         TEST2,
         TEST3,
         TEST4,
@@ -35,6 +37,7 @@ public:
     void clearHome();
     void showHome();
     void showTest1();
+    void showTest1_2();
     void showTest2();
     void showTest3();
     void showTest4();
@@ -42,6 +45,7 @@ public:
     QMessageBox testBox;
     GLWidget *glWidgetHome;
     CJTest1 *cjTest1;
+    CJTest1_2 *cjTest1_2;
     CJTest2 *cjTest2;
     CJTest3 *cjTest3;
     CJTest4 *cjTest4;

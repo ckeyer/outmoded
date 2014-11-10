@@ -59,8 +59,15 @@
     <property name="title">
      <string>&amp;File</string>
     </property>
+    <widget class="QMenu" name="menuTEST_2">
+     <property name="title">
+      <string>TEST!</string>
+     </property>
+     <addaction name="action_test1"/>
+     <addaction name="actionTest1_2"/>
+    </widget>
     <addaction name="action_Home"/>
-    <addaction name="action_test1"/>
+    <addaction name="menuTEST_2"/>
     <addaction name="actionTest_2"/>
     <addaction name="actionTest_3"/>
     <addaction name="actionTest_4"/>
@@ -85,14 +92,6 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="action_test1">
-   <property name="text">
-    <string>Test&amp;1</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+1</string>
-   </property>
-  </action>
   <action name="action_Home">
    <property name="enabled">
     <bool>true</bool>
@@ -127,6 +126,19 @@
   <action name="actionTest_5">
    <property name="text">
     <string>Test&amp;5</string>
+   </property>
+  </action>
+  <action name="action_test1">
+   <property name="text">
+    <string>Test&amp;1_1</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+1</string>
+   </property>
+  </action>
+  <action name="actionTest1_2">
+   <property name="text">
+    <string>Test1_2</string>
    </property>
   </action>
  </widget>

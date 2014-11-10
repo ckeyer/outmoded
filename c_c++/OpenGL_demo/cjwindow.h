@@ -62,6 +62,8 @@ private slots:
 
     void on_actionTest_5_triggered();
 
+    void on_actionTest1_2_triggered();
+
 private:
     Ui::CJWindow *ui;
     UI_STATUS uiStatus;

@@ -176,3 +176,8 @@ void CJWindow::on_actionTest_5_triggered()
     showTest5();
     ui->actionTest_5->setEnabled(false);
 }
+
+void CJWindow::on_actionTest1_2_triggered()
+{
+
+}

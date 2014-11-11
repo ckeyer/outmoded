@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
-    # def new
+    def index
         
-    # end
+    end
     def create
         @article = Article.new(article_params)
         if @article.save

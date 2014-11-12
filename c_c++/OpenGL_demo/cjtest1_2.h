@@ -16,6 +16,15 @@ protected:
     void initializeGL();
     void paintGL();
     void resizeGL(int w, int height);
+
+    void mousePressEvent(QMouseEvent *event);
+    void mouseMoveEvent(QMouseEvent *event);
+
+
+    int xRot;
+    int yRot;
+    int zRot;
+    QPoint lastPos;
 private :
     GLfloat Point[5][3];
 };

@@ -41,23 +41,47 @@ void CJTest1_2::paintGL()
     glLoadIdentity();
     glTranslatef(-1.5,0.0,-6.0);
 
-    glBegin(GL_TRIANGLES);
-        glVertex3f(0.0,1.0,0.0);
+
+
+    glBegin(GL_LINE_LOOP);
+        glVertex3f(1.0,-1.0,0.0);
+        glVertex3f(1.0,1.0,0.0);
+        glVertex3f(-1.0,1.0,0.0);
         glVertex3f(-1.0,-1.0,0.0);
         glVertex3f(1.0,-1.0,0.0);
     glEnd();
 
-    glTranslatef(3.0,0.0,0.0);
+//    glTranslatef(3.0,0.0,0.0);
 
-    glBegin(GL_LINE_LOOP);
-        glArrayElement(1);
-        glArrayElement(4);
-        glArrayElement(2);
-        glArrayElement(0);
-        glArrayElement(3);
-    glEnd();
+//    glBegin(GL_LINE_LOOP);
+//        glArrayElement(1);
+//        glArrayElement(4);
+//        glArrayElement(2);
+//        glArrayElement(0);
+//        glArrayElement(3);
+//    glEnd();
+}
+void CJTest1_2::mousePressEvent(QMouseEvent *event)
+{
+    lastPos = event->pos();
 }
 
+void CJTest1_2::mouseMoveEvent(QMouseEvent *event)
+{
+    int dx = event->x() - lastPos.x();
+    int dy = event->y() - lastPos.y();
+
+    glPushMatrix();
+    glBegin(GL_LINE_LOOP);
+        glVertex3f(lastPos.x(),lastPos.y(),0.0);
+        glVertex3f(event->x(),event->y(),0.0);
+    glEnd();
+    glBegin(GL_LINE_LOOP);
+        glVertex3f(-1.0,1.0,0.0);
+        glVertex3f(1.0,-1.0,0.0);
+    glEnd();
+    glPopMatrix();
+}
 void CJTest1_2::resizeGL(int width, int height)
 {
     int side = qMin(width, height);

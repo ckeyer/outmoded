@@ -1,10 +1,10 @@
 <h1>Listing products</h1>
 
-<table>
+<table   class="table table-hover " align="center" style="background-color: red;max-width: 970px;">
   <thead>
     <tr>
       <th>Title</th>
-      <th>Description</th>
+      <th  style="width:120px;">Description</th>
       <th>Image url</th>
       <th>Price</th>
       <th>CreateTime</th>
@@ -17,7 +17,7 @@
     <% @products.each do |product| %>
       <tr>
         <td><%= product.title %></td>
-        <td><%= product.description %></td>
+        <td  style="width:120px;"><%= product.description %></td>
         <td><%= product.image_url %></td>
         <td><%= product.price %></td>
         <td><%= product.created_at %></td>

@@ -1,15 +1,36 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+$linkColor: #08c;
 body {
-  background-color: #fff;
-  width: 970px;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+	background-color: #fff;
+	width: 970px;
+	color: #333;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	table {
+		.list_image{
+			width: 80px;
+			height: 60px;
+		}
+		strong{
+			font-size: 18px;
+		}
+	}
 }
-body table{
-	width:970px;
+#td_product_title{
+	max-width: 100px;
 }
+#td_product_description{
+	max-width:270px;
+	color: $linkColor;
+	word-wrap:break-word;
+}
+#td_product_img_url{
+	max-width: 100px;
+}
+#td_product_timestamp{
+	max-width:120px;
+	word-wrap:break-word;
+} 

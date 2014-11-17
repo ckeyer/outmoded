@@ -1,35 +1,27 @@
 <h1>Listing products</h1>
 
-<table   class="table table-hover " align="center" style="background-color: red;max-width: 970px;">
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th  style="width:120px;">Description</th>
-      <th>Image url</th>
-      <th>Price</th>
-      <th>CreateTime</th>
-      <th>UpdateTime</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<table>
 
-  <tbody>
     <% @products.each do |product| %>
       <tr>
-        <td><%= product.title %></td>
-        <td  style="width:120px;"><%= product.description %></td>
-        <td><%= product.image_url %></td>
+
+        <td><%= image_tag(product.image_url,:class => 'list_image') %></p>
+        </td>
+        <td>
+          <dl>
+            <dt id="td_product_title"><strong><%= product.title %></strong></dt>
+            <dt id="td_product_description"><%= product.description %></dt>
+          </dl>
+        </td>
         <td><%= product.price %></td>
-        <td><%= product.created_at %></td>
-        <td><%= product.updated_at %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><p id="td_product_timestamp"><%= product.created_at %></p></td>
+        <td><p id="td_product_timestamp"><%= product.updated_at %></p></td>
+        <td><%= link_to 'Show', product %>
+          <%= link_to 'Edit', edit_product_path(product) %>
+          <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-  </tbody>
 </table>
-
 <br>
 
 <%= link_to 'New Product', new_product_path %>

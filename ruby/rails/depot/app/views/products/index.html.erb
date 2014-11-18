@@ -3,7 +3,7 @@
 <table>
 
     <% @products.each do |product| %>
-      <tr>
+      <tr id="<%= product.id %>">
 
         <td><%= image_tag(product.image_url,:class => 'list_image') %></p>
         </td>
@@ -16,9 +16,15 @@
         <td><%= product.price %></td>
         <td><p id="td_product_timestamp"><%= product.created_at %></p></td>
         <td><p id="td_product_timestamp"><%= product.updated_at %></p></td>
-        <td><%= link_to 'Show', product %>
-          <%= link_to 'Edit', edit_product_path(product) %>
-          <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td>
+          <dl>
+            <dt><%= link_to 'Show', product %></dt>
+            <dt><%= link_to 'Edit', edit_product_path(product) %></dt>
+            <dt><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></dt>
+          </dl>
+          
+          
+        </td>
       </tr>
     <% end %>
 </table>

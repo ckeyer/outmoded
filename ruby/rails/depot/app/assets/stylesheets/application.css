@@ -16,6 +16,8 @@
 body {
   background-color: #fff;
   width: 970px;
+  margin-right: auto;
+  margin-left: auto;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;

@@ -1,12 +1,20 @@
 <h1>Listing products</h1>
 
+<style type="text/css">
+.isOdd_true{
+  background-color: #EEEEEE;
+}
+</style>
+
 <table>
 
     <% @products.each do |product| %>
-      <tr id="<%= product.id %>">
+    <% @table_tr_odd = false 
+      @table_tr_i = !@table_tr_i
+    %>
+      <tr class="<%= "isOdd_#{@table_tr_i}" %>">
 
-        <td><%= image_tag(product.image_url,:class => 'list_image') %></p>
-        </td>
+        <td><%= image_tag(product.image_url,:class => 'list_image') %></td>
         <td>
           <dl>
             <dt id="td_product_title"><strong><%= product.title %></strong></dt>
@@ -31,3 +39,4 @@
 <br>
 
 <%= link_to 'New Product', new_product_path %>
+

@@ -1,7 +1,9 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 $linkColor: #08c;
+$Odd_background_color:#EEEEEE;
 body {
 	background-color: #fff;
 	width: 970px;
@@ -17,20 +19,23 @@ body {
 		strong{
 			font-size: 18px;
 		}
+		.isOdd_true{
+		  background-color: $Odd_background_color;
+		}
 	}
 }
 #td_product_title{
-	max-width: 100px;
+max-width: 100px;
 }
 #td_product_description{
-	max-width:270px;
-	color: $linkColor;
-	word-wrap:break-word;
+max-width:270px;
+color: $linkColor;
+word-wrap:break-word;
 }
 #td_product_img_url{
-	max-width: 100px;
+max-width: 100px;
 }
 #td_product_timestamp{
-	max-width:120px;
-	word-wrap:break-word;
-} 
+max-width:120px;
+word-wrap:break-word;
+}

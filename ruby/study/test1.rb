@@ -33,5 +33,15 @@ def mask(ip1, ip2)
     nip = m.to_i(2)^0xFFFFFFFF
     (nip/0x1000000%0x100).to_s + '.' + (nip/0x10000%0x100).to_s + '.' + (nip/0x100%0x100).to_s + '.' + (nip%0x100).to_s + '/' + m.size.to_s
 end
+def test(ip1,ip2,ip3)
+    num = ->(ip){
+      puts ip*3
+    }
 
-puts mask("41.58.0.0", "41.58.255.255")
+    num.call(ip1)
+    num.call(ip2)
+    num.call(ip3)
+end
+# puts mask("41.58.0.0", "41.58.255.255")
+
+puts test(12,23,34)

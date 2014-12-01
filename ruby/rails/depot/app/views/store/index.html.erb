@@ -17,7 +17,9 @@
             <dt id="td_product_description"><%= product.description %></dt>
           </dl>
         </td>
-        <td><p><%= product.price %></p></td>
+        <td>
+        	<span><%= number_to_currency(product.price) %></span>
+        </td>
       </tr>
 <% end %>
 </table>

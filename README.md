@@ -1,4 +1,4 @@
-Play Code
+Playing Code
 =========
 
 This is just the attitude 

@@ -3,23 +3,21 @@
 <% end %>
 
 <h1> Your Pragmatic Catalog</h1>
-<div id="tb_store">
-	<% @products.each do |product| %>
-	<tr>
-		<div class="entry">
-			<td><%= image_tag(product.image_url) %></td>
-			<td>
-				<dl>
-					<dt><h3><%= product.title %></h3></dt>
-					<p style="width:340px;"><dt><%= sanitize(product.description) %></dt></p>
-				</dl>
-			</td>
-			<td>
-				<div>
-					<span class="price"><%= product.price %></span>
-				</div>
-			</td>
-		</div>
-	</tr>
-	<% end %>
-</div>
+	
+<table>	
+    <% @products.each do |product| %>
+    <% @table_tr_odd = false 
+      @table_tr_i = !@table_tr_i
+    %>
+      <tr class="<%= "isOdd_#{@table_tr_i}" %>">
+        <td><%= image_tag(product.image_url,:class => 'list_image') %></td>
+        <td>
+          <dl>
+            <dt id="td_product_title"><strong><%= product.title %></strong></dt>
+            <dt id="td_product_description"><%= product.description %></dt>
+          </dl>
+        </td>
+        <td><p><%= product.price %></p></td>
+      </tr>
+<% end %>
+</table>

@@ -6,8 +6,13 @@
 		<title>CJStudio.org</title>
 		<meta name="author" content="cjstudio" />
 		<meta name="description" content="This is cjstudio's blog website" />
+		<%= stylesheet_link_tag 'scaffold' %>
+		<%= stylesheet_link_tag 'depot', :media => 'all' %>
+		<%= javascript_include_tag :default %>
+		
+		<!-- 
 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %> -->
 		<%= csrf_meta_tags %>
 	</head>
 	<body> 

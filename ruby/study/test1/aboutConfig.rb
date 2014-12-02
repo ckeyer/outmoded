@@ -12,3 +12,4 @@ fh = File.new(config_path, "w")
 config.write(fh)
 puts config['a'].to_i * 2
 puts config['groupB']["b"]
+puts config['groupC']["b"]==nil

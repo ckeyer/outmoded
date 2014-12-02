@@ -14,7 +14,7 @@
             <dt id="td_product_description"><%= product.description %></dt>
           </dl>
         </td>
-        <td><%= product.price %></td>
+        <td><p id="td_product_price"><%= number_to_currency(product.price) %></p></td>
         <td><p id="td_product_timestamp"><%= product.created_at %></p></td>
         <td><p id="td_product_timestamp"><%= product.updated_at %></p></td>
         <td>

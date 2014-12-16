@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<书籍列表>
+	<计算机书籍>
+	<书名  language="en"><![CDATA[《Thinking in JAVA》]]></书名><!-- 属性，按原样输出 -->
+		<价格>486.00</价格>
+		<作者>Someone</作者>
+		<简介>This is A greatest book about java</简介>
+	</计算机书籍>
+	<小说>
+		<书名  language="zh">挪威的森林</书名>
+		<价格>34.00</价格>
+		<作者>村上春树</作者>
+		<简介>关于青春</简介>
+	</小说>
+</书籍列表>

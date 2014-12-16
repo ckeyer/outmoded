@@ -1,0 +1,10 @@
+#Thu Aug 08 17:08:57 GMT-12:00 2013
+Single-line=comment\=0,0,0,0,0,125,140,147
+Type=0,0,0,0,0,103,140,177
+Multi-line=comment\=0,0,0,0,0,125,140,147
+Single=quoted string\=0,0,0,0,0,236,118,0
+Keyword=0,0,0,0,0,147,199,99
+Others=0,0,0,0,0,224,226,228
+Identifier=0,0,0,0,0,103,140,177
+eclipse.preferences.version=1
+Double=quoted string\=0,0,0,0,0,236,118,0

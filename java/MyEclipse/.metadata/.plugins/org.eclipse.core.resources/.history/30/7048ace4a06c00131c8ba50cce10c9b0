@@ -1,0 +1,19 @@
+package PTest;
+
+import java.util.Scanner;
+
+public class CTestMain
+{
+	
+	public static void main(String[] args)
+	{
+		double r,h;
+		Scanner scan = new Scanner(System.in);
+		System.out.print("输入圆柱体的底面半径：");
+		r = scan.nextDouble();
+		System.out.print("输入圆柱体的高：");
+		h = scan.nextDouble();
+		System.out.println("该圆柱体的体积为：" + Math.PI *r *r *h);
+		
+	}
+}

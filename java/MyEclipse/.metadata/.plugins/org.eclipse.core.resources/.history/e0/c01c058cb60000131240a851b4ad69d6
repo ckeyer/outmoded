@@ -1,8 +1,0 @@
-//数据类型的实验
-
-public class datatype {
-	public static void main(String[] args)
-	{
-		System.out.println("fuck you\n");
-	}
-}
